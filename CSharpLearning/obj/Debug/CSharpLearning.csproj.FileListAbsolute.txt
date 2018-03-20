@@ -1,0 +1,11 @@
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\CSharpLearning.exe.config
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\CSharpLearning.exe
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\CSharpLearning.pdb
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\CSharpLearning.exe
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\CSharpLearning.pdb
+C:\Users\cn569321\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\CSharpLearning.csprojResolveAssemblyReference.cache
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CSharpLearning\bin\Debug\CSharpLearning.exe.config
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CSharpLearning\obj\Debug\CSharpLearning.exe
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CSharpLearning\obj\Debug\CSharpLearning.pdb
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CSharpLearning\bin\Debug\CSharpLearning.exe
+C:\Users\cn569321\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CSharpLearning\bin\Debug\CSharpLearning.pdb
