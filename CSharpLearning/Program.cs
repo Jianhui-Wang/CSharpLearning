@@ -10,6 +10,7 @@ using System.Diagnostics;
 using Score = CSharpLearning.Program.Tuple<string, int>;
 using System.Threading;
 using System.Reflection;
+using System.Net.Http;
 
 namespace CSharpLearning
 {
@@ -609,6 +610,38 @@ namespace CSharpLearning
         }
 
 
+        static void DoIndependentWork() { }
+
+        // Three things to note in the signature:  
+        //  - The method has an async modifier.   
+        //  - The return type is Task or Task<T>. (See "Return Types" section.)  
+        //    Here, it is Task<int> because the return statement returns an integer.  
+        //  - The method name ends in "Async."  
+        static async Task<int> AccessTheWebAsync()
+        {
+            // You need to add a reference to System.Net.Http to declare client.  
+            HttpClient client = new HttpClient();
+
+            // GetStringAsync returns a Task<string>. That means that when you await the  
+            // task you'll get a string (urlContents).  
+            Task<string> getStringTask = client.GetStringAsync("http://msdn.microsoft.com");
+
+            // You can do work here that doesn't rely on the string from GetStringAsync.  
+            DoIndependentWork();
+
+            // The await operator suspends AccessTheWebAsync.  
+            //  - AccessTheWebAsync can't continue until getStringTask is complete.  
+            //  - Meanwhile, control returns to the caller of AccessTheWebAsync.  
+            //  - Control resumes here when getStringTask is complete.   
+            //  - The await operator then retrieves the string result from getStringTask.  
+            string urlContents = await getStringTask;
+
+            // The return statement specifies an integer result.  
+            // Any methods that are awaiting AccessTheWebAsync retrieve the length value.  
+            return urlContents.Length;
+        }
+
+
         static void Main(string[] args)
         {
             goto test_item;
@@ -630,7 +663,7 @@ namespace CSharpLearning
 
             // Passing an Action<CelestialBody> instance to Action<Planet> is allowed
             // since Action<T> is defined as Contra-Variant.
-            Action<CelestialBody> ac = (p) => {};
+            Action<CelestialBody> ac = (p) => { };
             ContravariantGeneric(ac);
             #endregion
 
@@ -1117,7 +1150,7 @@ namespace CSharpLearning
              */
             MethodInvoker[] mi = new MethodInvoker[2];
             int outside = 0;
-            for (int i=0; i<2; i++)
+            for (int i = 0; i < 2; i++)
             {
                 int inside = 0;
                 mi[i] = delegate
@@ -1168,21 +1201,26 @@ namespace CSharpLearning
 
             array.ToList().ForEach(i => Console.Write("{0} ", i)); // no change
             Console.WriteLine();
-            #endregion
+        #endregion
+
+        test_item:
 
             #region Learning-27 The Usage of Interlocked.CompareExchange()
             /*
              * LEARNING-27
              * 
              * Interlocked.CompareExchange(ref int a, int b, int c) do the following
-             * if (a == c) then a = b; else do_nothing;
+             * if (a == c) then a = b; else do_nothing; regardless of success/fail
+             * the Interlocked.CompareExchange() always return the original value of a.
              */
             int aa = 5;
-            Interlocked.CompareExchange(ref aa, 4, 10);
-            Console.WriteLine("aa = {0}", aa);
-            Interlocked.CompareExchange(ref aa, 4, 5);
-            Console.WriteLine("aa = {0}", aa);
+            var bb = Interlocked.CompareExchange(ref aa, 4, 10);
+            Console.WriteLine("aa = {0}, bb = {1}", aa, bb);
+            bb = Interlocked.CompareExchange(ref aa, 4, 5);
+            Console.WriteLine("aa = {0}, bb = {1}", aa, bb);
             #endregion
+
+            goto test_end;
 
             #region Learning-28 The usage of Attribute
             /*
@@ -1220,8 +1258,8 @@ namespace CSharpLearning
              * 类型T，返回类型是TResult
              *
              */
-            SelfApplicable<int,int> selfFac = (f,x) => x <= 1 ? x : f(f,x-1) + f(f,x-2);
-            Console.WriteLine(selfFac(selfFac,4));
+            SelfApplicable<int, int> selfFac = (f, x) => x <= 1 ? x : f(f, x - 1) + f(f, x - 2);
+            Console.WriteLine(selfFac(selfFac, 4));
 
             var Fac = Fix<int, int>(f => x => x <= 1 ? x : f(x - 1) + f(x - 2));
             Console.WriteLine(Fac(4));
@@ -1290,7 +1328,46 @@ namespace CSharpLearning
 
             #endregion
 
-            ; test_item:
+            #region Learning-33 Using async and await for asynchronous programing
+            /*
+             * LEARNING-33  Use async and await
+             * 
+             * AccessTheWebAsync() 控制流程如下：
+             * 1. 事件处理程序调用并等待 AccessTheWebAsync 异步方法。
+             * 2. AccessTheWebAsync 可创建 HttpClient 实例并调用 GetStringAsync 异步方法以下载网站内容作为字符串。
+             * 3. GetStringAsync 中发生了某种情况，该情况挂起了它的进程。 可能必须等待网站下载或一些其他阻止活动。 
+             *    为避免阻止资源，GetStringAsync 会将控制权出让给其调用方 AccessTheWebAsync。GetStringAsync 返回
+             *    Task<TResult>，其中 TResult 为字符串，并且 AccessTheWebAsync 将任务分配给 getStringTask 变量。
+             *    该任务表示调用 GetStringAsync 的正在进行的进程，其中承诺当工作完成时产生实际字符串值。
+             * 4. 由于尚未等待 getStringTask，因此，AccessTheWebAsync 可以继续执行不依赖于 GetStringAsync 得出的
+             *    最终结果的其他工作。 该任务由对同步方法 DoIndependentWork 的调用表示。
+             * 5. DoIndependentWork 是完成其工作并返回其调用方的同步方法。
+             * 6. AccessTheWebAsync 已用完工作，可以不受 getStringTask 的结果影响。 接下来，AccessTheWebAsync 需
+             *    要计算并返回该下载字符串的长度，但该方法仅在具有字符串时才能计算该值。因此，AccessTheWebAsync 使用
+             *    一个 await 运算符来挂起其进度，并把控制权交给调用 AccessTheWebAsync 的方法。 AccessTheWebAsync 
+             *    将 Task<int> 返回给调用方。 该任务表示对产生下载字符串长度的整数结果的一个承诺。
+             *    [Note] 如果 GetStringAsync（因此 getStringTask）在 AccessTheWebAsync 等待前完成，则控件会保留在
+             *           AccessTheWebAsync 中。 如果异步调用过程 (getStringTask) 已完成，并且 AccessTheWebSync 不
+             *           必等待最终结果，则挂起然后返回到 AccessTheWebAsync 将造成成本浪费。
+             * 7. 在调用方内部（此示例中的事件处理程序），处理模式将继续。 在等待结果前，调用方可以开展不依赖于 
+             *    AccessTheWebAsync 结果的其他工作，否则就需等待片刻。 事件处理程序等待 AccessTheWebAsync，而 
+             *    AccessTheWebAsync 等待 GetStringAsync。GetStringAsync 完成并生成一个字符串结果。 字符串结果不是
+             *    通过按你预期的方式调用 GetStringAsync 所返回的。 （记住，该方法已返回步骤 3 中的一个任务）。相反，
+             *    字符串结果存储在表示 getStringTask 方法完成的任务中。 await 运算符从 getStringTask 中检索结果。 
+             *    赋值语句将检索到的结果赋给 urlContents。
+             * 8. 当 AccessTheWebAsync 具有字符串结果时，该方法可以计算字符串长度。 然后，AccessTheWebAsync 工作也将
+             *    完成，并且等待事件处理程序可继续使用。 在此主题结尾处的完整示例中，可确认事件处理程序检索并打印长度结果
+             *    的值。如果你不熟悉异步编程，请花 1 分钟时间考虑同步行为和异步行为之间的差异。 当其工作完成时（第 5 步）
+             *    会返回一个同步方法，但当其工作挂起时（第 3 步和第 6 步），异步方法会返回一个任务值。 在异步方法最终完成
+             *    其工作时，任务会标记为已完成，而结果（如果有）将存储在任务中。
+             * 
+             */
+
+            Task<int> t_async = AccessTheWebAsync();
+            Console.WriteLine("Length = {0}", t_async.Result);
+        #endregion
+
+        test_end:
 
             Console.ReadKey();
         }
