@@ -195,6 +195,31 @@ namespace CSharpLearning
         }
 
 
+        class EagerSingleton
+        {
+            private static EagerSingleton instance = new EagerSingleton();
+
+            private EagerSingleton() { }
+
+            public static EagerSingleton GetInstance()
+            {
+                return instance;
+            }
+        }
+
+        class LazySingleton
+        {
+            private LazySingleton() { }
+
+            private static LazySingleton instance = null;
+
+            public static LazySingleton GetInstance()
+            {
+                if (instance == null)
+                    instance = new LazySingleton();
+                return instance;
+            }
+        }
 
         public static void CoVariantArray(CelestialBody[] baseItems)
         {
@@ -1201,9 +1226,8 @@ namespace CSharpLearning
 
             array.ToList().ForEach(i => Console.Write("{0} ", i)); // no change
             Console.WriteLine();
-        #endregion
+            #endregion
 
-        test_item:
 
             #region Learning-27 The Usage of Interlocked.CompareExchange()
             /*
@@ -1220,7 +1244,6 @@ namespace CSharpLearning
             Console.WriteLine("aa = {0}, bb = {1}", aa, bb);
             #endregion
 
-            goto test_end;
 
             #region Learning-28 The usage of Attribute
             /*
@@ -1366,6 +1389,69 @@ namespace CSharpLearning
             Task<int> t_async = AccessTheWebAsync();
             Console.WriteLine("Length = {0}", t_async.Result);
         #endregion
+
+            #region Learning-34 Thread.Yield() vs. Thread.Sleep()
+            /*
+             * LEARNING-34 Thread.Yield() vs. Thread.Sleep()
+             * 
+             * Yield 的中文翻译为 “放弃”，这里意思是主动放弃当前线程的时间片，并
+             * 让操作系统调度其它就绪态的线程使用一个时间片。但是如果调用 Yield，
+             * 只是把当前线程放入到就绪队列中，而不是阻塞队列。如果没有找到其它就
+             * 绪态的线程，则当前线程继续运行。Yield 可以让低于当前优先级的线程得
+             * 以运行。可以通过返回值判断是否成功调度了其它线程。
+             * 
+             * Sleep 的意思是告诉操作系统自己要休息 n 毫秒，这段时间就让给另一个就
+             * 绪的线程吧。当 n=0 的时候，意思是要放弃自己剩下的时间片，但是仍然是
+             * 就绪状态，其实意思和 Yield 有点类似。但是 Sleep(0) 只允许那些优先级
+             * 相等或更高的线程使用当前的CPU，其它线程只能等着挨饿了。如果没有合适的
+             * 线程，那当前线程会重新使用 CPU 时间片。相比 Yield，可以调度任何处理器
+             * 的线程使用时间片。只能调度优先级相等或更高的线程，意味着优先级低的线程
+             * 很难获得时间片，很可能永远都调用不到。当没有符合条件的线程，会一直占用
+             *  CPU 时间片，造成 CPU 100%占用率。
+             * 
+             */
+
+            Thread t = new Thread(() =>
+            {
+                while (true)
+                {
+                    // Sleep 0ms，如果有其他就绪线程就执行其他线程，如果没有则继续当前线程
+                    Thread.Sleep(0);
+
+                    Console.WriteLine("Thread 2 running");
+                }
+            });
+            t.Start();
+
+            while (true)
+            {
+                // 主动让出CPU，如果有其他就绪线程就执行其他线程，如果没有则继续当前线程
+                var result = Thread.Yield();
+
+                // Do Some Work
+                Console.WriteLine("Thread 1 running, yield result {0}", result);
+            }
+
+            #endregion
+
+        test_item:
+
+            #region Learning-35 Eager Singleton vs. Lazy Singleton
+            /*
+             * LEARNING-35 Eager Singleton vs. Lazy Singleton
+             * 
+             * Eager Singleton(饿汉式单例类)，其静态成员在类加载时就被初始化，此时
+             * 类的私有构造函数被调用，单例类的唯一实例就被创建。
+             * Lazy Singleton（懒汉式单例类），其类的唯一实例在真正调用时才被创建，
+             * 而不是类加载时就被创建。所以Lazy Singleton不是多线程安全的。
+             * 
+             */
+            EagerSingleton es = EagerSingleton.GetInstance();
+            LazySingleton ls = LazySingleton.GetInstance();
+            #endregion
+
+            goto test_end;
+
 
         test_end:
 
