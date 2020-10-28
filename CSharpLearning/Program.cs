@@ -11,6 +11,8 @@ using Score = CSharpLearning.Program.Tuple<string, int>;
 using System.Threading;
 using System.Reflection;
 using System.Net.Http;
+using System.Data;
+using System.Globalization;
 
 namespace CSharpLearning
 {
@@ -518,6 +520,16 @@ namespace CSharpLearning
         }
 
         public delegate void MethodInvoker();
+
+        public class Student
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
+            public int Height { get; set; }
+            public int Weight { get; set; }
+            public string Sex { get; set; }
+            public double Score { get; set; }
+        }
 
 
         /// <summary>
@@ -1228,7 +1240,6 @@ namespace CSharpLearning
             Console.WriteLine();
             #endregion
 
-
             #region Learning-27 The Usage of Interlocked.CompareExchange()
             /*
              * LEARNING-27
@@ -1243,7 +1254,6 @@ namespace CSharpLearning
             bb = Interlocked.CompareExchange(ref aa, 4, 5);
             Console.WriteLine("aa = {0}, bb = {1}", aa, bb);
             #endregion
-
 
             #region Learning-28 The usage of Attribute
             /*
@@ -1434,8 +1444,6 @@ namespace CSharpLearning
 
             #endregion
 
-        test_item:
-
             #region Learning-35 Eager Singleton vs. Lazy Singleton
             /*
              * LEARNING-35 Eager Singleton vs. Lazy Singleton
@@ -1450,8 +1458,50 @@ namespace CSharpLearning
             LazySingleton ls = LazySingleton.GetInstance();
             #endregion
 
-            goto test_end;
+            #region Learning-36 Difference between Where and TakeWhile
+            //TakeWhile: stops until the condition is false
+            //Where:  continues and find all elements matching the condition
+            var intList = new int[] { 1, 2, 3, 4, 5, -1, -2 };
+            Console.WriteLine("Where");
+            foreach (var i in intList.Where(x => x <= 3))
+                Console.WriteLine(i);
 
+            Console.WriteLine("TakeWhile");
+            foreach (var i in intList.TakeWhile(x => x <= 3))
+                Console.WriteLine(i);
+            #endregion
+
+            test_item:
+
+            #region Learning-37 DataTable and CsvHelper/CsvReader/CsvDataReader
+            var table = new DataTable();
+            var csvFile = @"C:\Drive_E\PA_Learning\PilotProject\CSharpLearning\test.csv";
+            Dictionary<string, Type> TypeMappings = new Dictionary<string, Type>();
+
+            using (var reader = File.OpenText(csvFile))
+            {
+                using (var csv = new CsvHelper.CsvReader(reader, CultureInfo.InvariantCulture))
+                using (var dataReader = new CsvHelper.CsvDataReader(csv))
+                {
+                    table.Load(dataReader);
+                }
+            }
+
+            var boys = table.Rows.Cast<DataRow>().Where(r => r["Sex"].ToString() == "boy");
+
+            // Another way
+            using (var reader = File.OpenText(csvFile))
+            {
+                using (var csv = new CsvHelper.CsvReader(reader, CultureInfo.InvariantCulture))
+                using (var dataReader = new CsvHelper.CsvDataReader(csv))
+                {
+                    var records = csv.GetRecords<Student>().ToList();
+                }
+            }
+
+            #endregion
+
+            goto test_end;
 
         test_end:
 
