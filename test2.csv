@@ -1,0 +1,1206 @@
+﻿Test Spec,Test Case,Title,3GPP Release,Mode,Frequency Range
+38.521-1,6.2.1,UE maximum output power,Rel-15,SA,FR1
+38.521-1,6.2.1,UE maximum output power,Rel-15,SA,FR1
+38.521-1,6.2.2,UE maximum output power reduction,Rel-15,SA,FR1
+38.521-1,6.2.2,UE maximum output power reduction,Rel-15,SA,FR1
+38.521-1,6.2.3,UE additional maximum output power reduction,Rel-15,SA,FR1
+38.521-1,6.2.3,UE additional maximum output power reduction,Rel-15,SA,FR1
+38.521-1,6.2.4,Configured transmitted power,Rel-15,SA,FR1
+38.521-1,6.2.4,Configured transmitted power,Rel-15,SA,FR1
+38.521-1,6.2A.1.1,UE maximum output power for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.2A.2.1,UE maximum output power reduction for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.2A.3.1,UE additional maximum output power reduction for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.2A.4.1,Configured transmitted power for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.2C.1,Configured transmitted power for SUL,Rel-15,SA,FR1
+38.521-1,6.2C.3,UE maximum output power for SUL,Rel-15,SA,FR1
+38.521-1,6.2C.4,UE maximum output power reduction for SUL,Rel-15,SA,FR1
+38.521-1,6.2C.5,UE additional maximum output power reduction for SUL,Rel-15,SA,FR1
+38.521-1,6.2D.1,UE maximum output power for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.2D.1,UE maximum output power for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.2D.2,UE maximum output power reduction for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.2D.2,UE maximum output power reduction for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.2D.3,UE additional maximum output power reduction for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.2D.3,UE additional maximum output power reduction for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.2D.4,Configured transmitted power for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.2D.4,Configured transmitted power for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3.1,Minimum output power,Rel-15,SA,FR1
+38.521-1,6.3.1,Minimum output power,Rel-15,SA,FR1
+38.521-1,6.3.2,Transmit OFF power,Rel-15,SA,FR1
+38.521-1,6.3.2,Transmit OFF power,Rel-15,SA,FR1
+38.521-1,6.3.3.2,General ON/OFF time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.2,General ON/OFF time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.3,Transmit power time mask for slot and short or subslot boundaries,Rel-15,SA,FR1
+38.521-1,6.3.3.3,Transmit power time mask for slot and short or subslot boundaries,Rel-15,SA,FR1
+38.521-1,6.3.3.4,PRACH time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.4,PRACH time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.6,SRS time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.6,SRS time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.7,PUSCH-PUCCH and PUSCH-SRS time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.7,PUSCH-PUCCH and PUSCH-SRS time mask,Rel-15,SA,FR1
+38.521-1,6.3.3.8,Transmit power time mask for consecutive slot or long subslot transmission and short subslot transmission boundaries,Rel-15,SA,FR1
+38.521-1,6.3.3.8,Transmit power time mask for consecutive slot or long subslot transmission and short subslot transmission boundaries,Rel-15,SA,FR1
+38.521-1,6.3.3.9,Transmit power time mask for consecutive short subslot  transmissions boundaries,Rel-15,SA,FR1
+38.521-1,6.3.3.9,Transmit power time mask for consecutive short subslot  transmissions boundaries,Rel-15,SA,FR1
+38.521-1,6.3.4.2,absolute Power tolerance,Rel-15,SA,FR1
+38.521-1,6.3.4.2,absolute Power tolerance,Rel-15,SA,FR1
+38.521-1,6.3.4.3,relative Power tolerance,Rel-15,SA,FR1
+38.521-1,6.3.4.3,relative Power tolerance,Rel-15,SA,FR1
+38.521-1,6.3.4.4,aggregate Power tolerance,Rel-15,SA,FR1
+38.521-1,6.3.4.4,aggregate Power tolerance,Rel-15,SA,FR1
+38.521-1,6.3A.1.1,Minimum output power for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.3A.2.1,Transmit OFF power for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.3A.3.1,Transmit ON/OFF time mask for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.3A.3.1_1,Time mask for switching between two uplink carriers,Rel-15,SA,FR1
+38.521-1,6.3A.4.1.1,Absolute power tolerance for CA (2 UL CA),Rel-15,SA,FR1
+38.521-1,6.3A.4.2.1,Power Control Relative power tolerance for CA (2 UL CA),Rel-15,SA,FR1
+38.521-1,6.3A.4.3.1,Aggregate power tolerance for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.3C.1,Minimum output power for SUL,Rel-15,SA,FR1
+38.521-1,6.3C.2,Transmit OFF power for SUL,Rel-15,SA,FR1
+38.521-1,6.3C.3,Transmit ON/OFF time mask for SUL,Rel-15,SA,FR1
+38.521-1,6.3C.3_1,Time mask for switching between two uplink carriers,Rel-15,SA,FR1
+38.521-1,6.3C.4.1,Absolute power tolerance for SUL,Rel-15,SA,FR1
+38.521-1,6.3C.4.2,Power Control Relative power tolerance for SUL,Rel-15,SA,FR1
+38.521-1,6.3C.4.3,Aggregate power tolerance for SUL,Rel-15,SA,FR1
+38.521-1,6.3D.1,Minimum output power for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.1,Minimum output power for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.2,Transmit OFF power for UL-MIMO,Rel-15,,FR1
+38.521-1,6.3D.2,Transmit OFF power for UL-MIMO,Rel-15,,FR1
+38.521-1,6.3D.3,Transmit ON/OFF time mask for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.3,Transmit ON/OFF time mask for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.4.1,absolute Power tolerance for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.4.1,absolute Power tolerance for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.4.2,relative Power tolerance for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.4.2,relative Power tolerance for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.4.3,aggregate Power tolerance for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.3D.4.3,aggregate Power tolerance for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4.1,Frequency Error,Rel-15,SA,FR1
+38.521-1,6.4.1,Frequency Error,Rel-15,SA,FR1
+38.521-1,6.4.2.1,Error Vector Magnitude,Rel-15,SA,FR1
+38.521-1,6.4.2.1,Error Vector Magnitude,Rel-15,SA,FR1
+38.521-1,6.4.2.2,Carrier leakage,Rel-15,SA,FR1
+38.521-1,6.4.2.2,Carrier leakage,Rel-15,SA,FR1
+38.521-1,6.4.2.3,In-band emissions,Rel-15,SA,FR1
+38.521-1,6.4.2.3,In-band emissions,Rel-15,SA,FR1
+38.521-1,6.4.2.4,EVM equalizer spectrum flatness,Rel-15,SA,FR1
+38.521-1,6.4.2.4,EVM equalizer spectrum flatness,Rel-15,SA,FR1
+38.521-1,6.4.2.5,EVM equalizer spectrum flatness for Pi/2 BPSK,Rel-15,SA,FR1
+38.521-1,6.4.2.5,EVM equalizer spectrum flatness for Pi/2 BPSK,Rel-15,SA,FR1
+38.521-1,6.4A.1.1,Frequency error for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.4A.2.1.1,Error Vector Magnitude for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.4A.2.2.1,Carrier leakage for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.4A.2.3.1,In-band emission for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.4C.1,Frequency Error for SUL,Rel-15,SA,FR1
+38.521-1,6.4C.2.1,Error Vector Magnitude for SUL,Rel-15,SA,FR1
+38.521-1,6.4C.2.2,Carrier leakage for SUL,Rel-15,SA,FR1
+38.521-1,6.4C.2.3,In-band emissions for SUL,Rel-15,SA,FR1
+38.521-1,6.4C.2.4,EVM equalizer spectrum flatness for SUL,Rel-15,SA,FR1
+38.521-1,6.4D.1,Frequency error for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.1,Frequency error for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.1,Error Vector Magnitude for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.1,Error Vector Magnitude for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.2,Carrier leakage for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.2,Carrier leakage for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.3,In-band emissions for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.3,In-band emissions for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.4,EVM equalizer spectrum flatness for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.2.4,EVM equalizer spectrum flatness for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.3,Time alignment error for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.3,Time alignment error for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.4,Requirements for Coherent UL MIMO,Rel-15,SA,FR1
+38.521-1,6.4D.4,Requirements for Coherent UL MIMO,Rel-15,SA,FR1
+38.521-1,6.5.1,Occupied bandwidth,Rel-15,SA,FR1
+38.521-1,6.5.1,Occupied bandwidth,Rel-15,SA,FR1
+38.521-1,6.5.2.2,Spectrum emission mask,Rel-15,SA,FR1
+38.521-1,6.5.2.2,Spectrum emission mask,Rel-15,SA,FR1
+38.521-1,6.5.2.3,Additional spectrum emission mask,Rel-15,SA,FR1
+38.521-1,6.5.2.3,Additional spectrum emission mask,Rel-15,SA,FR1
+38.521-1,6.5.2.4.1,NR ACLR,Rel-15,SA,FR1
+38.521-1,6.5.2.4.1,NR ACLR,Rel-15,SA,FR1
+38.521-1,6.5.2.4.2,UTRA ACLR,Rel-15,SA,FR1
+38.521-1,6.5.2.4.2,UTRA ACLR,Rel-15,SA,FR1
+38.521-1,6.5.3.1,General spurious emissions,Rel-15,SA,FR1
+38.521-1,6.5.3.1,General spurious emissions,Rel-15,SA,FR1
+38.521-1,6.5.3.2,Spurious emissions for UE co-existence,Rel-15,SA,FR1
+38.521-1,6.5.3.2,Spurious emissions for UE co-existence,Rel-15,SA,FR1
+38.521-1,6.5.3.3,Additional spurious emissions,Rel-15,SA,FR1
+38.521-1,6.5.3.3,Additional spurious emissions,Rel-15,SA,FR1
+38.521-1,6.5.4,Transmit intermodulation,Rel-15,SA,FR1
+38.521-1,6.5.4,Transmit intermodulation,Rel-15,SA,FR1
+38.521-1,6.5A.1.1,Occupied bandwidth for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5A.2.2.1,Spectrum emission mask for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5A.2.3.1,Additional spectrum emission mask for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5A.2.4.1.1,NR ACLR for CA  (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5A.2.4.2.1,UTRA ACLR for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5A.3.1.1,General spurious emissions for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5A.3.2.1,Spurious emissions for UE co-existence for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5A.4.1,Transmit intermodulation for CA (2UL CA),Rel-15,SA,FR1
+38.521-1,6.5C.1,Occupied bandwidth for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.2.2,Spectrum emission mask for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.2.3,Additional spectrum emission mask for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.2.4.1,NR ACLR for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.2.4.2,UTRA ACLR for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.3.1,General spurious emissions for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.3.2,Spurious emissions for UE co-existence for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.3.3,Additional spurious emissions for SUL,Rel-15,SA,FR1
+38.521-1,6.5C.4,Transmit intermodulation for SUL,Rel-15,SA,FR1
+38.521-1,6.5D.1,Occupied bandwidth for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.1,Occupied bandwidth for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.2,Spectrum emission mask for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.2,Spectrum emission mask for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.3,Additional spectrum emission mask for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.3,Additional spectrum emission mask for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.4.1,NR ACLR  for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.4.1,NR ACLR  for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.4.2,UTRA ACLR  for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.2.4.2,UTRA ACLR  for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.3.1,General spurious emissions for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.3.1,General spurious emissions for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.3.2,Spurious emissions for UE co-existence for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.3.2,Spurious emissions for UE co-existence for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.3.3,Additional spurious emissions for UL MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.3.3,Additional spurious emissions for UL MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.4,Transmit intermodulation for UL-MIMO,Rel-15,SA,FR1
+38.521-1,6.5D.4,Transmit intermodulation for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.3.2,Reference sensitivity power level,Rel-15,SA,FR1
+38.521-1,7.3.2,Reference sensitivity power level,Rel-15,SA,FR1
+38.521-1,7.3A.1,Reference sensitivity level for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.3A.2, Reference sensitivity level for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.3A.3,Reference sensitivity level for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.3C.2,Reference sensitivity power level for SUL,Rel-15,SA,FR1
+38.521-1,7.3D.2,Reference sensitivity for UL-MIMO(Clause 7.3D),Rel-15,SA,FR1
+38.521-1,7.3D.2,Reference sensitivity for UL-MIMO(Clause 7.3D),Rel-15,SA,FR1
+38.521-1,7.4,Maximum input level,Rel-15,SA,FR1
+38.521-1,7.4,Maximum input level,Rel-15,SA,FR1
+38.521-1,7.4A.1,Maximum input level for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.4A.2,Maximum input level for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.4A.3,Maximum input level for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.4D,Maximum input level for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.4D,Maximum input level for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.5,Adjacent channel selectivity,Rel-15,SA,FR1
+38.521-1,7.5,Adjacent channel selectivity,Rel-15,SA,FR1
+38.521-1,7.5A.1,Adjacent channel selectivity for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.5A.2,Adjacent channel selectivity for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.5A.3,Adjacent channel selectivity for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.5D,Adjacent channel selectivity for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.5D,Adjacent channel selectivity for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.6.2,Inband blocking,Rel-15,SA,FR1
+38.521-1,7.6.2,Inband blocking,Rel-15,SA,FR1
+38.521-1,7.6.3,Out-of-band blocking,Rel-15,SA,FR1
+38.521-1,7.6.3,Out-of-band blocking,Rel-15,SA,FR1
+38.521-1,7.6.4,Narrow-band blocking,Rel-15,SA,FR1
+38.521-1,7.6.4,Narrow-band blocking,Rel-15,SA,FR1
+38.521-1,7.6A.2.1,Inband blocking for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.2.2,Inband blocking for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.2.3,Inband blocking for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.3.1,Out-of-band blocking for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.3.2,Out-of-band blocking for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.3.3,Out-of-band blocking for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.4.1,Narrow band blocking for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.4.2,Narrow band blocking for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.6A.4.3,Narrow band blocking for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.6C.2,Inband blocking for SUL,Rel-15,SA,FR1
+38.521-1,7.6C.3,Out-of-band blocking for SUL,Rel-15,SA,FR1
+38.521-1,7.6D.2,Inband blocking for UL MIMO,Rel-15,SA,FR1
+38.521-1,7.6D.2,Inband blocking for UL MIMO,Rel-15,SA,FR1
+38.521-1,7.6D.3,Out-of-band blocking for UL MIMO,Rel-15,SA,FR1
+38.521-1,7.6D.3,Out-of-band blocking for UL MIMO,Rel-15,SA,FR1
+38.521-1,7.6D.4,Narrow-band blocking for UL MIMO,Rel-15,SA,FR1
+38.521-1,7.6D.4,Narrow-band blocking for UL MIMO,Rel-15,SA,FR1
+38.521-1,7.7,Spurious response,Rel-15,SA,FR1
+38.521-1,7.7,Spurious response,Rel-15,SA,FR1
+38.521-1,7.7A.1,Spurious response for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.7A.2,Spurious response for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.7A.3,Spurious response for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.7D,Spurious response for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.7D,Spurious response for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.8.2,Wide band Intermodulation,Rel-15,SA,FR1
+38.521-1,7.8.2,Wide band Intermodulation,Rel-15,SA,FR1
+38.521-1,7.8A.2.1,Wide band Intermodulation for CA (2DL CA),Rel-15,SA,FR1
+38.521-1,7.8A.2.2,Wide band Intermodulation for CA (3DL CA),Rel-15,SA,FR1
+38.521-1,7.8A.2.3,Wide band Intermodulation for CA (4DL CA),Rel-15,SA,FR1
+38.521-1,7.8D.2,Intermodulation characteristics for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.8D.2,Intermodulation characteristics for UL-MIMO,Rel-15,SA,FR1
+38.521-1,7.9,spurious emission,Rel-15,SA,FR1
+38.521-1,7.9,spurious emission,Rel-15,SA,FR1
+38.521-1,7.9A.1,Suprious emission for CA (2DL  CA),Rel-15,SA,FR1
+38.521-3,6.2A.1.1,UE maximum output power  for inter-band NR CA between FR 1 and FR 2 without EN-DC ,Rel-15,SA,FR1
+38.521-3,6.2A.2.1,UE maximum output power reduction  for inter-band NR CA between FR 1 and FR 2  without EN-DC,Rel-15,SA,FR1
+38.521-3,6.2A.3.1,UE additional maximum output power reduction  for inter-band NR CA between FR 1 and FR 2  without EN-DC,Rel-15,SA,FR1
+38.521-3,6.2A.4.1,UE Configured output power level for inter-band NR CA between FR 1 and FR 2  without EN-DC,Rel-15,SA,FR1
+38.521-3,6.2B.1.1,UE Maximum Output Power for Intra-Band Contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.1.1,UE Maximum Output Power for Intra-Band Contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.1.2,UE Maximum Output Power for Intra-Band non-Contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.1.2,UE Maximum Output Power for Intra-Band non-Contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.1.3,UE Maximum Output Power for Inter-Band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.2B.1.3,UE Maximum Output Power for Inter-Band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.2B.1.3A,UE Maximum Output Power for Inter-Band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.2B.1.4.1,UE Maximum Output Power for Inter-Band EN-DC including FR2 - EIRP and TRP,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4.2,UE Maximum Output Power for Inter-Band EN-DC including FR2 - Spherical Coverage,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4_1.1.1,UE Maximum Output Power for Inter-Band EN-DC including FR2 (3 CCs) - EIRP and TRP,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4_1.1.2,UE Maximum Output Power for Inter-Band EN-DC including FR2 (3 CCs) - Spherical Coverage,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4_1.2.1,UE Maximum Output Power for Inter-Band EN-DC including FR2 (4 CCs) - EIRP and TRP,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4_1.2.2,UE Maximum Output Power for Inter-Band EN-DC including FR2 (4 CCs) - Spherical Coverage,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4_1.3.1,UE Maximum Output Power for Inter-Band EN-DC including FR2 (5 CCs) - EIRP and TRP,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4_1.3.2,UE Maximum Output Power for Inter-Band EN-DC including FR2 (5 CCs) - Spherical Coverage,Rel-15,NSA,FR2
+38.521-3,6.2B.1.4D,UE Maximum Output Power for Inter-Band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.2B.1.5,UE Maximum Output Power for Inter-Band EN-DC including both FR1 and FR2 ,Rel-15,NSA,FR1
+38.521-3,6.2B.1.5D,UE Maximum Output Power for Inter-Band EN-DC including both FR1 and FR2  for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,6.2B.2.1,UE Maximum Output Power reduction for Intra-Band Contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.2.1,UE Maximum Output Power reduction for Intra-Band Contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.2.2,UE Maximum Output Power reduction for Intra-Band non-Contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.2B.2.2,UE Maximum Output Power reduction for Intra-Band non-Contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.2B.2.3,UE Maximum Output power reduction for inter-band EN-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.2.3,UE Maximum Output power reduction for inter-band EN-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.2.3A,UE Maximum Output power reduction for inter-band NE-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.2.4,UE Maximum Output power reduction for inter-band EN-DC including FR2 ,Rel-15,NSA,FR2
+38.521-3,6.2B.2.4_1.1,UE Maximum Output power reduction for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.2B.2.4_1.2,UE Maximum Output power reduction for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.2B.2.4_1.3,UE Maximum Output power reduction for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.2B.2.4D,UE Maximum Output power reduction for inter-band EN-DC including FR2  for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.2B.2.5,UE Maximum Output power reduction for inter-band EN-DC including both FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,6.2B.2.5D,UE Maximum Output power reduction for inter-band EN-DC including both FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,6.2B.3.1,UE additional maximum output power reduction for intra-band contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.3.1,UE additional maximum output power reduction for intra-band contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.3.2,UE additional maximum output power reduction for intra-band non-contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.3.2,UE additional maximum output power reduction for intra-band non-contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.2B.3.3,UE additional Maximum Output power reduction for inter-band EN-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.3.3,UE additional Maximum Output power reduction for inter-band EN-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.3.4,UE Additional Maximum Output power reduction for inter-band EN-DC including FR2 ,Rel-15,NSA,FR2
+38.521-3,6.2B.3.4_1.1,UE Additional Maximum Output power reduction for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.2B.3.4_1.2,UE Additional Maximum Output power reduction for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.2B.3.4_1.3,UE Additional Maximum Output power reduction for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.2B.3.4D,UE Additional Maximum Output power reduction for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.2B.3.5,UE Additional Maximum Output power reduction for inter-band EN-DC including both FR1 and FR2 ,Rel-15,NSA,FR1
+38.521-3,6.2B.3.5D,UE Additional Maximum Output power reduction for inter-band EN-DC including both FR1 and FR2 ,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.1,Configured output power level for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.1,Configured output power level for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.2,Configured output power level for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.2,Configured output power level for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.3,Configured Output power level for inter-band EN-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.3,Configured Output power level for inter-band EN-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.3A,Configured Output power level for inter-band NE-DC within FR1 ,Rel-15,NSA,FR1
+38.521-3,6.2B.4.1.4,Configured Output power level for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.2B.4.1.5,Configured Output Power for Inter-Band EN-DC including both FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,6.2B.5.1.1,Configured Output Power Level for Inter-band NR-DC between FR1 and FR2,Rel-15,SA,FR1
+38.521-3,6.3B.1.1,Minimum output power for intra-band Contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.1.1,Minimum output power for intra-band Contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.1.2,Minimum output power for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.1.2,Minimum output power for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.1.3,Minimum output power for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.1.3,Minimum output power for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.1.4,Minimum output power for inter-band EN-DC including FR2 ,Rel-15,NSA,FR2
+38.521-3,6.3B.1.4_1.1,Minimum output power for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.1.4_1.2,Minimum output power for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.1.4_1.3,Minimum output power for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.1.4D,Minimum output power for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.3B.2.1,Transmit OFF Power for intra-band contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.3B.2.1,Transmit OFF Power for intra-band contiguous EN-DC ,Rel-15,NSA,FR1
+38.521-3,6.3B.2.2,Transmit OFF Power for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.2.2,Transmit OFF Power for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.2.3,Transmit OFF Power for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.2.3,Transmit OFF Power for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.2.4,Transmit OFF Power for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.3B.2.4_1.1,Transmit OFF Power for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.2.4_1.2,Transmit OFF Power for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.2.4_1.3,Transmit OFF Power for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.2.4D,Transmit OFF Power for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.3B.3.1,Tx ON/OFF time mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.3.1,Tx ON/OFF time mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.3.2,Tx ON/OFF time mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.3.2,Tx ON/OFF time mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.3.3,Tx ON/OFF time mask for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.3.3,Tx ON/OFF time mask for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.3.4,Tx ON/OFF time mask for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.3B.3.4_1.1,Tx ON/OFF time mask for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.3.4_1.2,Tx ON/OFF time mask for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.3.4_1.3,Tx ON/OFF time mask for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.3.4D,Tx ON/OFF time mask for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.3B.4.1,PRACH Time Mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.4.1,PRACH Time Mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.4.2,PRACH Time Mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.4.2,PRACH Time Mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.4.3,PRACH Time Mask for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.4.3,PRACH Time Mask for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.4.4,PRACH Time Mask for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.3B.4.4_1.1,PRACH Time Mask for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.4.4_1.2,PRACH Time Mask for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.4.4_1.3,PRACH Time Mask for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.3B.4.4D,PRACH time mask for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.3B.5.1,E-UTRA and NR switching time mask for TDM based UL sharing from UE perspective and intra-band contiguous scenario,Rel-15,,
+38.521-3,6.3B.5.1,E-UTRA and NR switching time mask for TDM based UL sharing from UE perspective and intra-band contiguous scenario,Rel-15,,
+38.521-3,6.3B.6.1,E-UTRA to NR and NR to E-UTRA Switching time mask for intra-band non-contiguous scenario,Rel-15,,
+38.521-3,6.3B.6.1,E-UTRA to NR and NR to E-UTRA Switching time mask for intra-band non-contiguous scenario,Rel-15,,
+38.521-3,6.3B.8.1.1,Absolute Power Tolerance for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.1.1,Absolute Power Tolerance for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.1.2,Absolute Power Tolerance for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.1.2,Absolute Power Tolerance for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.1.3,Absolute Power Tolerance for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.8.1.3,Absolute Power Tolerance for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.8.1.4,Absolute Power Tolerance for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.3B.8.2.1,Relative Power Tolerance for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.2.1,Relative Power Tolerance for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.2.2,Relative Power Tolerance for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.2.2,Relative Power Tolerance for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.2.3,Relative Power Tolerance for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.8.2.3,Relative Power Tolerance for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.8.2.4,Relative Power Tolerance for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.3B.8.3.1,Aggregate Power Tolerance for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.3.1,Aggregate Power Tolerance for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.3.2,Aggregate Power Tolerance for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.3.2,Aggregate Power Tolerance for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.3B.8.3.3,Aggregate Power Tolerance for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.8.3.3,Aggregate Power Tolerance for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.3B.8.3.4,Aggregate Power Tolerance for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.4A.1,Frequency error for  inter-band NR CA between FR 1 and FR 2 without EN-DC,Rel-15,SA,FR1
+38.521-3,6.4A.2.1,Error Vector Magnitude for  inter-band NR CA between FR 1 and FR 2  without EN-DC,Rel-15,SA,FR1
+38.521-3,6.4A.2.2,Carrier Leakage  for  inter-band NR CA between FR 1 and FR 2  without EN-DC,Rel-15,SA,FR1
+38.521-3,6.4A.2.3,In-band Emissions  for  inter-band NR CA between FR 1 and FR 2  without EN-DC,Rel-15,SA,FR1
+38.521-3,6.4A.2.4,EVM Equalizer Spectral Flatness  for  inter-band NR CA between FR 1 and FR 2  without EN-DC,Rel-15,SA,FR1
+38.521-3,6.4B.1.1,Frequency Error for intra-band contiguous EN-DC (2 UL CCs),Rel-15,NSA,FR1
+38.521-3,6.4B.1.1,Frequency Error for intra-band contiguous EN-DC (2 UL CCs),Rel-15,NSA,FR1
+38.521-3,6.4B.1.2,Frequency Error for intra-band non-contiguous EN-DC (2 UL CCs),Rel-15,NSA,FR1
+38.521-3,6.4B.1.2,Frequency Error for intra-band non-contiguous EN-DC (2 UL CCs),Rel-15,NSA,FR1
+38.521-3,6.4B.1.3,Frequency Error for inter-band EN-DC within FR1 (2 UL CCs),Rel-15,NSA,FR1
+38.521-3,6.4B.1.3,Frequency Error for inter-band EN-DC within FR1 (2 UL CCs),Rel-15,NSA,FR1
+38.521-3,6.4B.1.3A,Frequency Error for inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.1.4,Frequency Error for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.4B.1.4_1.1,Frequency Error for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.1.4_1.2,Frequency Error for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.1.4_1.3,Frequency Error for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.1.4D,Frequency error for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.4B.1.5D,Frequency error for inter-band EN-DC including both FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.1,Error Vector Magnitude for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.1,Error Vector Magnitude for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.2,Carrier Leakage for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.2,Carrier Leakage for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.3,In-band Emissions for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.3,In-band Emissions for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.4,EVM Equalizer Flatness for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.1.4,EVM Equalizer Flatness for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.1,Error Vector Magnitude for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.1,Error Vector Magnitude for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.2,Carrier Leakage for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.2,Carrier Leakage for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.3,In-band Emissions for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.3,In-band Emissions for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.4,EVM Equalizer Flatness for intra-band non contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.2.4,EVM Equalizer Flatness for intra-band non contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.1,Error Vector Magnitude for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.1,Error Vector Magnitude for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.2,Carrier Leakage for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.2,Carrier Leakage for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.3,In-band Emissions for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.3,In-band Emissions for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.4,EVM Equalizer Flatnessfor inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3.4,EVM Equalizer Flatnessfor inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3A.1,Error Vector Magnitude for inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3A.2,Carrier Leakage for inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3A.3,In-band Emissions for inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.3A.4,EVM Equalizer Flatnessfor inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.4B.2.4.1,Error Vector Magnitude for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.1_1.1,Error Vector Magnitude for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.1_1.2,Error Vector Magnitude for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.1_1.3,Error Vector Magnitude for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.1D,Error Vector Magnitude for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.2,Carrier Leakage for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.2_1.1,Carrier Leakage for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.2_1.2,Carrier Leakage for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.2_1.3,Carrier Leakage for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.2D,Carrier Leakage for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.3,In-band Emissions for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.3_1.1,In-band Emissions for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.3_1.2,In-band Emissions for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.3_1.3,In-band Emissions for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.3D,In-band Emissions for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.4,EVM Equalizer Flatness for inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.4_1.1,EVM Equalizer Flatness for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.4_1.2,EVM Equalizer Flatness for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.4_1.3,EVM Equalizer Flatness for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.4B.2.4.4D,EVM Equalizer Flatness for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.5A.1,Occupied Bandwidth for CA without EN-DC,Rel-15,SA,FR1
+38.521-3,6.5A.2.1,Spectrum emissions mask for CA without EN-DC,Rel-15,SA,FR1
+38.521-3,6.5A.2.2,Additional Spectrum emissions mask for CA without EN-DC,Rel-15,SA,FR1
+38.521-3,6.5A.2.3,Adjacent channel leakage ratio for CA without EN-DC,Rel-15,SA,FR1
+38.521-3,6.5A.3.1,General Spurious Emissions  for CA without EN-DC,Rel-15,SA,FR1
+38.521-3,6.5A.3.2,Spurious Emission band UE co-existence for CA without EN-DC,Rel-15,,
+38.521-3,6.5B.1.1,Occupied bandwidth for  intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.1.1,Occupied bandwidth for  intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.1.2,Occupied bandwidth for  intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.1.2,Occupied bandwidth for  intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.1.3, Occupied bandwidth for  inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.1.3, Occupied bandwidth for  inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.1.4,Occupied bandwidth for  inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.5B.1.4_1.1,Occupied bandwidth for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.1.4_1.2,Occupied bandwidth for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.1.4_1.3,Occupied bandwidth for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.1.4D,Occupied bandwidth for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.5B.2.1.1,Spectrum emissions mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.1.1,Spectrum emissions mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.1.2,Additional Spectrum emissions mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.1.2,Additional Spectrum emissions mask for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.1.3,Adjacent channel leakage ratio for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.1.3,Adjacent channel leakage ratio for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.2.1,Spectrum emissions mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.2.1,Spectrum emissions mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.2.2,Additional Spectrum emissions mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.2.2,Additional Spectrum emissions mask for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.2.3,Adjacent channel leakage ratio for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.2.3,Adjacent channel leakage ratio for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3.1,Spectrum emissions mask for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3.1,Spectrum emissions mask for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3.2,Additional Spectrum emissions mask for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3.2,Additional Spectrum emissions mask for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3.3,Adjacent channel leakage ratio for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3.3,Adjacent channel leakage ratio for inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3A.1,Spectrum emissions mask for Inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3A.2,Additional Spectrum emissions mask for Inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.3A.3,Adjacent channel leakage ratio for inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.2.4.1,Spectrum emissions mask for Inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.1_1.1,Spectrum emissions mask for Inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.1_1.2,Spectrum emissions mask for Inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.1_1.3,Spectrum emissions mask for Inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.1D,Spectrum emissions mask for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.2,Additional Spectrum emissions mask for Inter-band EN-DC including FR2,Rel-15,,
+38.521-3,6.5B.2.4.3,Adjacent channel leakage ratio for Inter-band EN-DC including FR2,Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.3_1.1,Adjacent channel leakage ratio for Inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.3_1.2,Adjacent channel leakage ratio for Inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.2.4.3_1.3,Adjacent channel leakage ratio for Inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.2.4D.3,Adjacent channel leakage ratio for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.5B.3.1.1,General Spurious Emissions for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.1.1,General Spurious Emissions for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.1.2,Spurious Emission band UE co-existence for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.1.2,Spurious Emission band UE co-existence for intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.2.1,General Spurious Emissions for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.2.1,General Spurious Emissions for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.2.2,Spurious Emission band UE co-existence for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.2.2,Spurious Emission band UE co-existence for intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.3.3.1,General Spurious Emissions for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.3.3.1,General Spurious Emissions for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.3.3.2,Spurious Emission band UE co-existence for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.3.3.2,Spurious Emission band UE co-existence for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.3.3A.1,General Spurious Emissions for Inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.3.3A.2,Spurious Emission band UE co-existence for Inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.3.4.1,General Spurious Emissions for Inter-band including FR2,Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.1_1.1,General Spurious Emissions for Inter-band including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.1_1.2,General Spurious Emissions for Inter-band including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.1_1.3,General Spurious Emissions for Inter-band including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.1D,General Spurious Emissions  for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.2,Spurious emission band UE co-existence for Inter-band including FR2,Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.2_1.1,Spurious emission band UE co-existence for Inter-band including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.2_1.2,Spurious emission band UE co-existence for Inter-band including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.2_1.3,Spurious emission band UE co-existence for Inter-band including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,6.5B.3.4.2D,Spurious emission band UE co-existence for inter-band EN-DC including  FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,6.5B.3.5.1,General Spurious Emissions for Inter-band including FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,6.5B.3.5.1D,General Spurious Emissions for inter-band EN-DC including FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,6.5B.3.5.2,Spurious emission band UE co-existence for Inter-band including FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,6.5B.3.5.2D,Spurious emission band UE co-existence for inter-band EN-DC including FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,6.5B.4.1,Additonal Spurious Emissions for Intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.4.1,Additonal Spurious Emissions for Intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.4.2,Additonal Spurious Emissions for Intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.4.2,Additonal Spurious Emissions for Intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.4.3,Additonal Spurious Emissions for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.4.3,Additonal Spurious Emissions for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.5.1,Transmit Intermodulation for Intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.5.1,Transmit Intermodulation for Intra-band contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.5.2,Transmit Intermodulation for Intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.5.2,Transmit Intermodulation for Intra-band non-contiguous EN-DC,Rel-15,NSA,FR1
+38.521-3,6.5B.5.3,Transmit Intermodulation for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.5.3,Transmit Intermodulation for Inter-band EN-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.5.3A,Transmit Intermodulation for Inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.5B.5.4,Transmit Intermodulation for inter-band EN-DC within FR2,Rel-15,,
+38.521-3,6.5B.5.5,Transmit Intermodulation for  inter-band EN-DC including FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,6.6B.1.1,Beam Correspondence for Intra-band contiguous EN-DC,Rel-15,,FR1
+38.521-3,6.6B.1.1,Beam Correspondence for Intra-band contiguous EN-DC,Rel-15,,FR1
+38.521-3,6.6B.1.2,Beam Correspondence for Intra-band non-contiguous EN-DC,Rel-15,,FR1
+38.521-3,6.6B.1.2,Beam Correspondence for Intra-band non-contiguous EN-DC,Rel-15,,FR1
+38.521-3,6.6B.1.3,Beam Correspondence for Inter-band EN-DC within FR1,Rel-15,,FR1
+38.521-3,6.6B.1.3,Beam Correspondence for Inter-band EN-DC within FR1,Rel-15,,FR1
+38.521-3,6.6B.1.3a,Beam Correspondence for Inter-band NE-DC within FR1,Rel-15,NSA,FR1
+38.521-3,6.6B.1.4,Beam Correspondence for Inter-band EN-DC within FR2 (2 CCs),Rel-15,,FR1
+38.521-3,6.6B.1.4D,Beam Correspondence for Inter-band EN-DC within FR2 for UL-MIMO (2 CCs),Rel-15,,FR1
+38.521-3,6.6B.1.5,Beam Correspondence for Inter-band EN-DC including FR1 and FR2 (3 CCs),Rel-15,,FR1
+38.521-3,6.6B.1.5D,Beam Correspondence for Inter-band EN-DC including FR1 and FR2 for UL-MIMO (2 CCs),Rel-15,,FR1
+38.521-3,7.3A.2,Reference sensitivity power level for CA without EN-DC,Rel-15,SA,FR1
+38.521-3,7.3B.2.1,Reference sensitivity for Intra-band Contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.1,Reference sensitivity for Intra-band Contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.2,Reference sensitivity for Intra-band Non-Contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.2,Reference sensitivity for Intra-band Non-Contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.3,Reference sensitivity for Inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.3,Reference sensitivity for Inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.3_1.1,Reference sensitivity for EN-DC within FR1 (3 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.3_1.2,Reference sensitivity for EN-DC within FR1  (4 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.3_1.3,Reference sensitivity for EN-DC  within FR1 (5 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.3_1.4,Reference sensitivity for EN-DC  within FR1 (6 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.3A,Reference sensitivity for Inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.3B.2.4,Reference sensitivity for Inter-band EN-DC including FR2 (2 CCs),Rel-15,NSA,FR2
+38.521-3,7.3B.2.4_1.1,Reference sensitivity for Inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,7.3B.2.4_1.2,Reference sensitivity for Inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,7.3B.2.4_1.3,Reference sensitivity for Inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,7.3B.2.4_1.4,Reference sensitivity for Inter-band EN-DC including FR2 (6 CCs),Rel-15,NSA,FR2
+38.521-3,7.3B.2.4D,Reference sensitivity  for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,7.3B.2.5,Reference sensitivity for Inter-band EN-DC including FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,7.3B.2.5D,Reference sensitivity  for inter-band EN-DC including FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,7.4A,Maximum Input Level for CA,Rel-15,SA,FR1
+38.521-3,7.4B.1,Maximum Input Level for intra-band contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.1,Maximum Input Level for intra-band contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.2,Maximum Input Level for intra-band non-contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.2,Maximum Input Level for intra-band non-contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.3,Maximum Input Level for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.3,Maximum Input Level for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.3_1.1,Maximum Input Level for EN-DC within FR1  (3 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.3_1.2,Maximum Input Level for EN-DC within FR1 (4 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.3_1.3,Maximum Input Level for EN-DC witihn FR1 (5 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.3_1.4,Maximum Input Level for EN-DC within FR1 (6 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.3A,Maximum Input Level for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.4B.4,Maximum Input Level for inter-band EN-DC including FR2 (2 CCs),Rel-15,NSA,FR2
+38.521-3,7.4B.4_1.1,Maximum Input Level for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,7.4B.4_1.2,Maximum Input Level for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,7.4B.4_1.3,Maximum Input Level for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,7.4B.4_1.4,Maximum Input Level for inter-band EN-DC including FR2 (6 CCs),Rel-15,NSA,FR2
+38.521-3,7.4B.4D,Maximum Input Level for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,7.4B.5,Maximum Input Level for inter-band EN-DC including both FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,7.4B.5D,Maximum Input Level for inter-band EN-DC including FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,7.5A,Adjacent Channel Selectivity for CA,Rel-15,SA,FR1
+38.521-3,7.5B.1,Adjacent Channel Selectivity for intra-band contiguous EN-DC  (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.1,Adjacent Channel Selectivity for intra-band contiguous EN-DC  (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.2,Adjacent Channel Selectivity for intra-band non-contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.2,Adjacent Channel Selectivity for intra-band non-contiguous EN-DC (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.3,Adjacent Channel Selectivity for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.3,Adjacent Channel Selectivity for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.3_1.1,Adjacent Channel Selectivity for EN-DC within FR1  (3 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.3_1.2,Adjacent Channel Selectivity for EN-DC within FR1 (4 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.3_1.3,Adjacent Channel Selectivity for EN-DC within FR1  (5 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.3_1.4,Adjacent Channel Selectivity for EN-DC within FR1 (6 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.3A,Adjacent Channel Selectivity for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.5B.4,Adjacent Channel Selectivity for inter-band EN-DC including FR2 (2CCs),Rel-15,NSA,FR2
+38.521-3,7.5B.4_1.1,Adjacent Channel Selectivity for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,7.5B.4_1.2,Adjacent Channel Selectivity for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,7.5B.4_1.3,Adjacent Channel Selectivity for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,7.5B.4_1.4,Adjacent Channel Selectivity for inter-band EN-DC including FR2 (6 CCs),Rel-15,NSA,FR2
+38.521-3,7.5B.4D,Adjacent Channel Selectivity for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,7.5B.5,Adjacent Channel Selectivity for inter-band EN-DC including both FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,7.5B.5D,Adjacent Channel Selectivity for inter-band EN-DC including FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,7.6B.2.1,Inband blocking for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.1,Inband blocking for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.2,Inband blocking for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.2,Inband blocking for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.3,Inband blocking for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.3,Inband blocking for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.3_1.1,Inband blocking for EN-DC within FR1 (3 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.3_1.2,Inband blocking for  EN-DC within FR1 (4 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.3_1.3,Inband blocking for EN-DC within FR1 (5 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.3_1.4,Inband blocking for EN-DC within FR1 (6 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.3A,Inband blocking for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.2.4,Inband blocking for inter-band EN-DC including FR2 (2 CCs),Rel-15,NSA,FR2
+38.521-3,7.6B.2.4_1.1,Inband blocking for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,7.6B.2.4_1.2,Inband blocking for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,7.6B.2.4_1.3,Inband blocking for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,7.6B.2.4_1.4,Inband blocking for inter-band EN-DC including FR2 (6 CCs),Rel-15,NSA,FR2
+38.521-3,7.6B.2.4D,Inband blocking for inter-band EN-DC including FR2 for UL-MIMO,Rel-15,NSA,FR2
+38.521-3,7.6B.2.5,Inband blocking for inter-band EN-DC including both FR1 and FR2,Rel-15,NSA,FR1
+38.521-3,7.6B.2.5D,Inband blockingfor inter-band EN-DC including FR1 and FR2 for UL-MIMO,Rel-15,NSA,FR1
+38.521-3,7.6B.3.1,Out-of-band blocking for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.3.1,Out-of-band blocking for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.3.2,Out-of-band blocking for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.3.2,Out-of-band blocking for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.3.3,Out-of-band blocking for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.3.3,Out-of-band blocking for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.3.3_1.1,Out-of-band blocking for EN-DC within FR1 (3 CCs),Rel-15,,
+38.521-3,7.6B.3.3_1.2,Out-of-band blocking for  EN-DC within FR1 (4 CCs),Rel-15,,
+38.521-3,7.6B.3.3_1.3,Out-of-band blocking for EN-DC within FR1 (5 CCs),Rel-15,,
+38.521-3,7.6B.3.3_1.4,Out-of-band blocking for EN-DC within FR1 (6 CCs),Rel-15,,
+38.521-3,7.6B.3.3A,Out-of-band blocking for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.1,Narrow band blocking for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.1,Narrow band blocking for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.2,Narrow band blocking for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.2,Narrow band blocking for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.3,Narrow band blocking for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.3,Narrow band blocking for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.3_1.1,Narrow band blocking for EN-DC within FR1 (3 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.3_1.2,Narrow band blocking for  EN-DC within FR1 (4 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.3_1.3,Narrow band blocking for EN-DC within FR1 (5 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.3_1.4,Narrow band blocking for EN-DC within FR1 (6 CCs),Rel-15,NSA,FR1
+38.521-3,7.6B.4.3A,Narrow band blocking for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.7B.1,Spurious Response for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.7B.1,Spurious Response for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.7B.2,Spurious Response for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.7B.2,Spurious Response for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.7B.3,Spurious Response for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.7B.3,Spurious Response for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.7B.3_1.1,Spurious Response for EN-DC within FR1 (3 CCs),Rel-15,,
+38.521-3,7.7B.3_1.2,Spurious Response for EN-DC within FR1  (4 CCs),Rel-15,,
+38.521-3,7.7B.3_1.3,Spurious Response for EN-DC within FR1 (5 CCs),Rel-15,,
+38.521-3,7.7B.3_1.4,Spurious Response for EN-DC witihn FR1 (6 CCs),Rel-15,,
+38.521-3,7.7B.3A,Spurious Response for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.8B.2.1,Wideband Intermodulation for intra-band contiguous EN-DC in FR1,Rel-15,NSA,FR1
+38.521-3,7.8B.2.1,Wideband Intermodulation for intra-band contiguous EN-DC in FR1,Rel-15,NSA,FR1
+38.521-3,7.8B.2.2,Wideband Intermodulation for intra-band non-contiguous EN-DC in FR1,Rel-15,NSA,FR1
+38.521-3,7.8B.2.2,Wideband Intermodulation for intra-band non-contiguous EN-DC in FR1,Rel-15,NSA,FR1
+38.521-3,7.8B.2.3,Wideband Intermodulation for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.8B.2.3,Wideband Intermodulation for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.8B.2.3_1.1,Wideband Intermodulation for EN-DC  within FR1 (3 CCs),Rel-15,NSA,FR1
+38.521-3,7.8B.2.3_1.2,Wideband Intermodulation for EN-DC within FR1  (4 CCs),Rel-15,NSA,FR1
+38.521-3,7.8B.2.3_1.3,Wideband Intermodulation for EN-DC within FR1 (5 CCs),Rel-15,NSA,FR1
+38.521-3,7.8B.2.3_1.4,Wideband Intermodulation for EN-DC within FR1 (6 CCs),Rel-15,NSA,FR1
+38.521-3,7.8B.2.3A,Wideband Intermodulation for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.1,Spurious Emissions for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.1,Spurious Emissions for intra-band contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.2,Spurious Emissions for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.2,Spurious Emissions for intra-band non-contiguous EN-DC in FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.3,Spurious Emissions for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.3,Spurious Emissions for inter-band EN-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.3_1.1,Spurious Emissions for EN-DC within FR1  (3 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.3_1.2,Spurious Emissions for EN-DC within FR1 (4 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.3_1.3,Spurious Emissions for EN-DC within FR1 (5 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.3_1.4,Spurious Emissions for EN-DC within FR1 (6 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.3A,Spurious Emissions for inter-band NE-DC within FR1 (2 CCs),Rel-15,NSA,FR1
+38.521-3,7.9B.4,Spurious Emissions for inter-band EN-DC including FR2 (2 CCs),Rel-15,NSA,FR2
+38.521-3,7.9B.4_1.1,Spurious Emissions for inter-band EN-DC including FR2 (3 CCs),Rel-15,NSA,FR2
+38.521-3,7.9B.4_1.2,Spurious Emissions for inter-band EN-DC including FR2 (4 CCs),Rel-15,NSA,FR2
+38.521-3,7.9B.4_1.3,Spurious Emissions for inter-band EN-DC including FR2 (5 CCs),Rel-15,NSA,FR2
+38.521-3,7.9B.4_1.4,Spurious Emissions for inter-band EN-DC including FR2 (6 CCs),Rel-15,NSA,FR2
+38.521-3,7.9B.5,Spurious Emissions for inter-band EN-DC including both FR1 and FR2 ,Rel-15,NSA,FR1
+38.521-3,7.9B.9,Spurious Emissions for EN-DC within FR1 (6 CCs),Rel-15,,
+38.521-4,5.2.2.1.1_1_NSA,2Rx FDD FR1 PDSCH mapping Type A performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.1.1_1_SA,2Rx FDD FR1 PDSCH mapping Type A performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.1.1_2_NSA,2Rx FDD FR1 PDSCH Mapping Type A performance - 2x2 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.1.1_2_SA,2Rx FDD FR1 PDSCH Mapping Type A performance - 2x2 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.1.2_1_NSA,2Rx FDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.1.2_1_SA,2Rx FDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.1.3_1_NSA,2Rx FDD FR1 PDSCH mapping Type B performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.1.3_1_SA,2Rx FDD FR1 PDSCH mapping Type B performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.1.4_1_NSA,2Rx FDD FR1 PDSCH Mapping Type A and LTE-NR coexistence performance - 4x2 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.1.4_1_SA,2Rx FDD FR1 PDSCH Mapping Type A and LTE-NR coexistence performance - 4x2 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.2.1_1_NSA,2Rx TDD FR1 PDSCH mapping Type A performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.2.1_1_SA,2Rx TDD FR1 PDSCH mapping Type A performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.2.1_2_NSA,2Rx TDD FR1 PDSCH Mapping Type A performance - 2x2 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.2.1_2_SA,2Rx TDD FR1 PDSCH Mapping Type A performance - 2x2 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.2.2_1_NSA,2Rx TDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.2.2_1_SA,2Rx TDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.2.2.3_1_NSA,2Rx TDD FR1 PDSCH mapping Type B performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.2.2.3_1_SA,2Rx TDD FR1 PDSCH mapping Type B performance - 2x2 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.1.1_1_NSA,4Rx FDD FR1 PDSCH mapping Type A performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.1.1_1_SA,4Rx FDD FR1 PDSCH mapping Type A performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.1.1_2_NSA,4Rx FDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.1.1_2_SA,4Rx FDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.1.1_4_NSA,4Rx FDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.1.1_4_SA,4Rx FDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.1.2_1_NSA,4Rx FDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.1.2_1_SA,4Rx FDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.1.3_1_NSA,4Rx FDD FR1 PDSCH mapping Type B performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.1.3_1_SA,4Rx FDD FR1 PDSCH mapping Type B performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.1.4_1_NSA,4Rx FDD FR1 PDSCH Mapping Type A and LTE-NR coexistence performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.1.4_1_SA,4Rx FDD FR1 PDSCH Mapping Type A and LTE-NR coexistence performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.2.1_1_NSA,4Rx TDD FR1 PDSCH mapping Type A performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.2.1_1_SA,4Rx TDD FR1 PDSCH mapping Type A performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.2.1_2_NSA,4Rx TDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.2.1_2_SA,4Rx TDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.2.1_4_NSA,4Rx TDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.2.1_4_SA,4Rx TDD FR1 PDSCH mapping Type A performance - 4x4 MIMO with enhanced receiver type 1 for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.2.2_1_NSA,4Rx TDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.2.2_1_SA,4Rx TDD FR1 PDSCH mapping Type A and CSI-RS overlapped with PDSCH performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.2.3.2.3_1_NSA,4Rx TDD FR1 PDSCH mapping Type B performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.2.3.2.3_1_SA,4Rx TDD FR1 PDSCH mapping Type B performance - 2x4 MIMO with baseline receiver for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.2.1.1_NSA,2Rx FDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.2.1.1_SA,2Rx FDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.2.1.2_NSA,2Rx FDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.2.1.2_SA,2Rx FDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.2.2.1_NSA,2Rx TDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.2.2.1_SA,2Rx TDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.2.2.2_NSA,2Rx TDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.2.2.2_SA,2Rx TDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.3.1.1_NSA,4Rx FDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.3.1.1_SA,4Rx FDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.3.1.2_NSA,4Rx FDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.3.1.2_SA,4Rx FDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.3.2.1_NSA,4Rx TDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.3.2.1_SA,4Rx TDD FR1 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.3.3.2.2_NSA,4Rx TDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,5.3.3.2.2_SA,4Rx TDD FR1 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,SA,FR1
+38.521-4,5.5.1_SA,FR1 Sustained downlink data rate performance for single carrier (assumes FDD),Rel-15,SA,FR1
+38.521-4,5.5.1_SA,FR1 Sustained downlink data rate performance for single carrier (assumes TDD),Rel-15,SA,FR1
+38.521-4,6.2.2.1.1.1_NSA,2Rx FDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.2.1.1.1_SA,2Rx FDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.2.1.2.1_NSA,2Rx FDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.2.1.2.1_SA,2Rx FDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.2.1.2.2_NSA,2Rx FDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.2.1.2.2_SA,2Rx FDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.2.2.1.1_NSA,2Rx TDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.2.2.1.1_SA,2Rx TDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.2.2.2.1_NSA,2Rx TDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.2.2.2.1_SA,2Rx TDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.2.2.2.2_NSA,2Rx TDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.2.2.2.2_SA,2Rx TDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.3.1.1.1_NSA,4Rx FDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.3.1.1.1_SA,4Rx FDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.3.1.2.1_NSA,4Rx FDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.3.1.2.1_SA,4Rx FDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.3.1.2.2_NSA,4Rx FDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.3.1.2.2_SA,4Rx FDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.3.2.1.1_NSA,4Rx TDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.3.2.1.1_SA,4Rx TDD FR1 periodic CQI reporting under AWGN conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.3.2.2.1_NSA,4Rx TDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.3.2.2.1_SA,4Rx TDD FR1 periodic wideband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.2.3.2.2.2_NSA,4Rx TDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.2.3.2.2.2_SA,4Rx TDD FR1 aperiodic subband CQI reporting under fading conditions for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.2.1.1_NSA,2Rx FDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.3.2.1.1_SA,2Rx FDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.2.1.2_NSA,2Rx FDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.3.2.1.2_SA,2Rx FDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.2.2.1_NSA,2Rx TDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.3.2.2.1_SA,2Rx TDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.2.2.2_NSA,2Rx TDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.3.2.2.2_SA,2Rx TDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.3.1.1_NSA,4Rx FDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.3.3.1.1_SA,4Rx FDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.3.1.2_NSA,4Rx FDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.3.3.1.2_SA,4Rx FDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.3.2.1_NSA,4Rx TDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.3.2.1_SA,4Rx TDD FR1 Single PMI with 4Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.3.3.2.2_NSA,4Rx TDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.3.3.2.2_SA,4Rx TDD FR1 Single PMI with 8Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.4.2.1_1_NSA,2Rx FDD FR1 RI reporting for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.4.2.1_1_SA,2Rx FDD FR1 RI reporting for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.4.2.2_1_NSA,2Rx TDD FR1 RI reporting for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.4.2.2_1_SA,2Rx TDD FR1 RI reporting for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.4.3.1_1_NSA,4Rx FDD FR1 RI reporting for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.4.3.1_1_SA,4Rx FDD FR1 RI reporting for both SA and NSA,Rel-15,SA,FR1
+38.521-4,6.4.3.2_1_NSA,4Rx TDD FR1 RI reporting for both SA and NSA,Rel-15,NSA,FR1
+38.521-4,6.4.3.2_1_SA,4Rx TDD FR1 RI reporting for both SA and NSA,Rel-15,SA,FR1
+38.521-4,7.2.2.2.1_1_NSA,2Rx TDD FR2 PDSCH mapping Type A performance - 2x2 MIMO with baseline receiver for SA and NSA,Rel-15,NSA,FR2
+38.521-4,7.2.2.2.1_2_NSA,2Rx TDD FR2 PDSCH mapping Type A performance - 2x2 MIMO with enhanced type 1 receiver for SA and NSA,Rel-15,NSA,FR2
+38.521-4,7.3.2.2.1_NSA,2Rx TDD FR2 PDCCH 1 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR2
+38.521-4,7.3.2.2.2_NSA,2Rx TDD FR2 PDCCH 2 Tx antenna performance for both SA and NSA,Rel-15,NSA,FR2
+38.521-4,7.5.1_NSA,FR2 Sustained downlink data rate performance for single carrier,Rel-15,NSA,FR2
+38.521-4,8.2.2.2.1.1_NSA,2Rx TDD FR2 periodic CQI reporting under AWGN performance for both SA and NSA,Rel-15,NSA,FR2
+38.521-4,8.2.2.2.2.1_NSA,2Rx TDD FR2 aperiodic wideband CQI reporting under fading performance for both SA and NSA,Rel-15,NSA,FR2
+38.521-4,8.3.2.2.1_NSA,2Rx TDD FR2 Single PMI with 2Tx Type1 - SinglePanel codebook for both SA and NSA,Rel-15,NSA,FR2
+38.521-4,8.4.2.2.1_NSA,2Rx TDD FR2 RI reporting for both SA and NSA,Rel-15,NSA,FR2
+38.521-4,9.4B.1.1_NSA,Sustained downlink data rate performance for EN-DC within FR1 (assumes TDD),Rel-15,NSA,FR1
+38.521-4,9.4B.1.1_NSA,Sustained downlink data rate performance for EN-DC within FR1 (assumes FDD),Rel-15,NSA,FR1
+38.521-4,9.4B.1.2,Sustained downlink data rate performance for EN-DC including FR2 NR carrier,Rel-15,NSA,FR2
+38.521-4,9.4B.1.3,Sustained downlink data rate performance for EN-DC including FR1 and FR2 NR carriers,Rel-15,,
+38.533,4.3.2.2.1,EN-DC FR1 contention based random access,Rel-15,NSA,FR1
+38.533,4.3.2.2.1,EN-DC FR1 contention based random access,Rel-15,NSA,FR1
+38.533,4.3.2.2.2,EN-DC FR1 non-contention based random access,Rel-15,NSA,FR1
+38.533,4.3.2.2.2,EN-DC FR1 non-contention based random access,Rel-15,NSA,FR1
+38.533,4.4.1.1,EN-DC FR1 UE transmit timing accuracy,Rel-15,NSA,FR1
+38.533,4.4.1.1,EN-DC FR1 UE transmit timing accuracy,Rel-15,NSA,FR1
+38.533,4.4.3.1,EN-DC FR1 timing advance adjustment accuracy,Rel-15,NSA,FR1
+38.533,4.4.3.1,EN-DC FR1 timing advance adjustment accuracy,Rel-15,NSA,FR1
+38.533,4.5.1.1,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.1,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.2,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.2,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.3,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with SSB-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.3,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with SSB-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.4,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with SSB-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.4,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with SSB-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.5,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.5,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.6,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.6,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.7,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.7,EN-DC FR1 radio link monitoring out-of-sync test for PSCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.8,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.1.8,EN-DC FR1 radio link monitoring in-sync test for PSCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,NSA,FR1
+38.533,4.5.2.1,EN-DC FR1 interruptions at transitions between active and non-active during DRX in synchronous EN-DC ,Rel-15,NSA,FR1
+38.533,4.5.2.1,EN-DC FR1 interruptions at transitions between active and non-active during DRX in synchronous EN-DC ,Rel-15,NSA,FR1
+38.533,4.5.2.2,EN-DC FR1 interruptions at transitions between active and non-active during DRX in asynchronous EN-DC ,Rel-15,NSA,FR1
+38.533,4.5.2.2,EN-DC FR1 interruptions at transitions between active and non-active during DRX in asynchronous EN-DC ,Rel-15,NSA,FR1
+38.533,4.5.2.3,EN-DC FR1 interruptions during measurements on deactivated NR SCC in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.2.3,EN-DC FR1 interruptions during measurements on deactivated NR SCC in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.2.4,EN-DC FR1 interruptions during measurements on deactivated NR SCC in asynchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.2.4,EN-DC FR1 interruptions during measurements on deactivated NR SCC in asynchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.2.5,EN-DC FR1 interruptions during measurements on deactivated E-UTRAN SCC in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.2.5,EN-DC FR1 interruptions during measurements on deactivated E-UTRAN SCC in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.2.6,EN-DC FR1 interruptions during measurements on deactivated E-UTRAN SCC in asynchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.2.6,EN-DC FR1 interruptions during measurements on deactivated E-UTRAN SCC in asynchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.3.1,EN-DC FR1 SCell activation and deactivation of known SCell in non-DRX for 160ms SCell measurement cycle,Rel-15,NSA,FR1
+38.533,4.5.3.1,EN-DC FR1 SCell activation and deactivation of known SCell in non-DRX for 160ms SCell measurement cycle,Rel-15,NSA,FR1
+38.533,4.5.3.2,EN-DC FR1 SCell activation and deactivation of known Scell in non-DRX for 320ms SCell measurement cycle,Rel-15,NSA,FR1
+38.533,4.5.3.2,EN-DC FR1 SCell activation and deactivation of known Scell in non-DRX for 320ms SCell measurement cycle,Rel-15,NSA,FR1
+38.533,4.5.3.3,EN-DC FR1 SCell activation and deactivation of unknown SCell in non-DRX,Rel-15,NSA,FR1
+38.533,4.5.3.3,EN-DC FR1 SCell activation and deactivation of unknown SCell in non-DRX,Rel-15,NSA,FR1
+38.533,4.5.4.1,EN-DC FR1 UE UL carrier RRC reconfiguration delay,Rel-15,NSA,FR1
+38.533,4.5.4.1,EN-DC FR1 UE UL carrier RRC reconfiguration delay,Rel-15,NSA,FR1
+38.533,4.5.5.1,EN-DC FR1 SSB-based beam failure detection and link recovery in non-DRX,Rel-15,NSA,FR1
+38.533,4.5.5.1,EN-DC FR1 SSB-based beam failure detection and link recovery in non-DRX,Rel-15,NSA,FR1
+38.533,4.5.5.2,EN-DC FR1 SSB-based beam failure detection and link recovery in DRX,Rel-15,NSA,FR1
+38.533,4.5.5.2,EN-DC FR1 SSB-based beam failure detection and link recovery in DRX,Rel-15,NSA,FR1
+38.533,4.5.5.3,EN-DC FR1 CSI-RS-based beam failure detection and link recovery in non-DRX,Rel-15,NSA,FR1
+38.533,4.5.5.3,EN-DC FR1 CSI-RS-based beam failure detection and link recovery in non-DRX,Rel-15,NSA,FR1
+38.533,4.5.5.4,EN-DC FR1 CSI-RS-based beam failure detection and link recovery in DRX,Rel-15,NSA,FR1
+38.533,4.5.5.4,EN-DC FR1 CSI-RS-based beam failure detection and link recovery in DRX,Rel-15,NSA,FR1
+38.533,4.5.6.1.1,EN-DC FR1 DCI-based DL active BWP switch in non-DRX in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.6.1.1,EN-DC FR1 DCI-based DL active BWP switch in non-DRX in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.6.1.2,EN-DC FR1 DCI-based DL active BWP switch with SCell in non-DRX in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.6.1.2,EN-DC FR1 DCI-based DL active BWP switch with SCell in non-DRX in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.6.2.1,EN-DC FR1 RRC-based DL active BWP switch in non-DRX in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.6.2.1,EN-DC FR1 RRC-based DL active BWP switch in non-DRX in synchronous EN-DC,Rel-15,NSA,FR1
+38.533,4.5.7.1,EN-DC FR1 addition and release delay of known PSCell,Rel-15,NSA,FR1
+38.533,4.5.7.1,EN-DC FR1 addition and release delay of known PSCell,Rel-15,NSA,FR1
+38.533,4.6.1.1,EN-DC FR1 event-triggered reporting without gap in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.1.1,EN-DC FR1 event-triggered reporting without gap in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.1.2,EN-DC FR1 event-triggered reporting without gap in DRX,Rel-15,NSA,FR1
+38.533,4.6.1.2,EN-DC FR1 event-triggered reporting without gap in DRX,Rel-15,NSA,FR1
+38.533,4.6.1.3,EN-DC FR1 event-triggered reporting with gap in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.1.3,EN-DC FR1 event-triggered reporting with gap in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.1.4,EN-DC FR1 event-triggered reporting with gap in DRX,Rel-15,NSA,FR1
+38.533,4.6.1.4,EN-DC FR1 event-triggered reporting with gap in DRX,Rel-15,NSA,FR1
+38.533,4.6.1.5,EN-DC FR1 event-triggered reporting without gap in non-DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.1.5,EN-DC FR1 event-triggered reporting without gap in non-DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.1.6,EN-DC FR1 event-triggered reporting with gap in non-DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.1.6,EN-DC FR1 event-triggered reporting with gap in non-DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.2.1,EN-DC FR1-FR1 event-triggered reporting in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.2.1,EN-DC FR1-FR1 event-triggered reporting in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.2.2,EN-DC FR1-FR1 event-triggered reporting  in DRX,Rel-15,NSA,FR1
+38.533,4.6.2.2,EN-DC FR1-FR1 event-triggered reporting  in DRX,Rel-15,NSA,FR1
+38.533,4.6.2.5,EN-DC FR1-FR1 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.2.5,EN-DC FR1-FR1 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.2.6,EN-DC FR1-FR1 event-triggered reporting  in DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.2.6,EN-DC FR1-FR1 event-triggered reporting  in DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,4.6.4.1,EN-DC FR1 SSB-based L1-RSRP measurement in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.4.1,EN-DC FR1 SSB-based L1-RSRP measurement in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.4.2,EN-DC FR1 SSB-based L1-RSRP measurement in DRX,Rel-15,NSA,FR1
+38.533,4.6.4.2,EN-DC FR1 SSB-based L1-RSRP measurement in DRX,Rel-15,NSA,FR1
+38.533,4.6.4.3,EN-DC FR1 CSI-RS-based L1-RSRP measurement in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.4.3,EN-DC FR1 CSI-RS-based L1-RSRP measurement in non-DRX,Rel-15,NSA,FR1
+38.533,4.6.4.4,EN-DC FR1 CSI-RS-based L1-RSRP measurement in DRX,Rel-15,NSA,FR1
+38.533,4.6.4.4,EN-DC FR1 CSI-RS-based L1-RSRP measurement in DRX,Rel-15,NSA,FR1
+38.533,4.7.1.1.1,EN-DC FR1 SS-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.1.1.1,EN-DC FR1 SS-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.1.1.2,EN-DC FR1 SS-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.1.1.2,EN-DC FR1 SS-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.1.2.1,EN-DC FR1-FR1 SS-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.1.2.1,EN-DC FR1-FR1 SS-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.1.2.2,EN-DC FR1-FR1 SS-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.1.2.2,EN-DC FR1-FR1 SS-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.2.1,EN-DC FR1 SS-RSRQ measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.2.1,EN-DC FR1 SS-RSRQ measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.2.2.1,EN-DC FR1-FR1 SS-RSRQ absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.2.2.1,EN-DC FR1-FR1 SS-RSRQ absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.2.2.2,EN-DC FR1-FR1 SS-RSRQ relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.2.2.2,EN-DC FR1-FR1 SS-RSRQ relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.3.1,EN-DC FR1 SS-SINR measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.3.1,EN-DC FR1 SS-SINR measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.3.2.1,EN-DC FR1-FR1 SS-SINR absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.3.2.1,EN-DC FR1-FR1 SS-SINR absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.3.2.2,EN-DC FR1-FR1 SS-SINR relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.3.2.2,EN-DC FR1-FR1 SS-SINR relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.1.1,EN-DC FR1 SSB-based L1-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.1.1,EN-DC FR1 SSB-based L1-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.1.2,EN-DC FR1 SSB-based L1-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.1.2,EN-DC FR1 SSB-based L1-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.2.1,EN-DC FR1 CSI-RS-based L1-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.2.1,EN-DC FR1 CSI-RS-based L1-RSRP absolute measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.2.2,EN-DC FR1 CSI-RS-based L1-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.4.2.2,EN-DC FR1 CSI-RS-based L1-RSRP relative measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.5.1,EN-DC FR1 SFTD measurement accuracy,Rel-15,NSA,FR1
+38.533,4.7.5.1,EN-DC FR1 SFTD measurement accuracy,Rel-15,NSA,FR1
+38.533,5.3.2.2.1,EN-DC FR2 contention based random access,Rel-15,NSA,FR2
+38.533,5.3.2.2.2,EN-DC FR2 non-contention based random access,Rel-15,NSA,FR2
+38.533,5.4.1.1,EN-DC FR2 UE transmit timing accuracy,Rel-15,NSA,FR2
+38.533,5.4.3.1,EN-DC FR2 timing advance adjustment accuracy,Rel-15,NSA,FR2
+38.533,5.5.1.1,EN-DC FR2 radio link monitoring out-of-sync test for PSCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.2,EN-DC FR2 radio link monitoring in-sync test for PSCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.3,EN-DC FR2 radio link monitoring out-of-sync test for PSCell configured with SSB-based RLM RS in DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.4,EN-DC FR2 radio link monitoring in-sync test for PSCell configured with SSB-based RLM RS in DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.5,EN-DC FR2 radio link monitoring out-of-sync test for PSCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.6,EN-DC FR2 radio link monitoring in-sync test for PSCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.7,EN-DC FR2 radio link monitoring out-of-sync test for PSCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.8,EN-DC FR2 radio link monitoring in-sync test for PSCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,NSA,FR2
+38.533,5.5.1.9,EN-DC FR2 radio link monitoring UE scheduling restrictions,Rel-15,NSA,FR2
+38.533,5.5.2.1,EN-DC FR2 interruptions at transitions between active and non-active during DRX in synchronous EN-DC ,Rel-15,NSA,FR2
+38.533,5.5.2.2,EN-DC FR2 interruptions at transitions between active and non-active during DRX in asynchronous EN-DC ,Rel-15,NSA,FR2
+38.533,5.5.2.3,EN-DC FR2 interruptions during measurements on deactivated NR SCC in synchronous EN-DC,Rel-15,NSA,FR2
+38.533,5.5.2.4,EN-DC FR2 interruptions during measurements on deactivated NR SCC in asynchronous EN-DC,Rel-15,NSA,FR2
+38.533,5.5.2.5,EN-DC FR2 interruptions during measurements on deactivated E-UTRAN SCC in synchronous EN-DC,Rel-15,NSA,FR2
+38.533,5.5.2.6,EN-DC FR2 interruptions during measurements on deactivated E-UTRAN SCC in asynchronous EN-DC,Rel-15,NSA,FR2
+38.533,5.5.3.1,EN-DC FR2 SCell activation and deactivation intra-band in non-DRX,Rel-15,NSA,FR2
+38.533,5.5.3.2,EN-DC FR2-FR1 SCell activation and deactivation of known SCell in non-DRX for 160ms SCell measurement cycle,Rel-15,NSA,FR1
+38.533,5.5.3.5,EN-DC FR1-FR2 SCell activation and deactivation  in non-DRX,Rel-15,NSA,FR1
+38.533,5.5.5.1,EN-DC FR2 SSB-based beam failure detection and link recovery in non-DRX,Rel-15,NSA,FR2
+38.533,5.5.5.2,EN-DC FR2 SSB-based beam failure detection and link recovery in DRX,Rel-15,NSA,FR2
+38.533,5.5.5.3,EN-DC FR2 CSI-RS-based beam failure detection and link recovery in non-DRX,Rel-15,NSA,FR2
+38.533,5.5.5.4,EN-DC FR2 CSI-RS-based beam failure detection and link recovery in DRX,Rel-15,NSA,FR2
+38.533,5.5.5.5,EN-DC FR2 scheduling available restriction during SSB-based beam failure detection and link recovery in non-DRX,Rel-15,NSA,FR2
+38.533,5.5.6.1.1,EN-DC FR2 DCI-based DL active BWP switch in non-DRX in synchronous EN-DC,Rel-15,NSA,FR2
+38.533,5.5.6.1.2,EN-DC PSCell FR2 DL active BWP switch with FR2 SCell in non-DRX in synchronous EN-DC,Rel-15,NSA,FR2
+38.533,5.5.6.2.1,EN-DC FR2 RRC-based DL active BWP switch in non-DRX in synchronous EN-DC,Rel-15,NSA,FR2
+38.533,5.5.7.1,EN-DC FR2 addition and release delay of known PSCell,Rel-15,NSA,FR2
+38.533,5.5.8.1,EN-DC FR2 MAC-CE based active TCI state switch for a known TCI state,Rel-15,NSA,FR2
+38.533,5.5.8.2,EN-DC FR2 RRC based active TCI state switch for a known TCI state,Rel-15,NSA,FR2
+38.533,5.6.1.1,EN-DC FR2 event-triggered reporting without gap in non-DRX,Rel-15,NSA,FR2
+38.533,5.6.1.2,EN-DC FR2 event-triggered reporting without gap in DRX,Rel-15,NSA,FR2
+38.533,5.6.1.3,EN-DC FR2 event-triggered reporting with gap in non-DRX,Rel-15,NSA,FR2
+38.533,5.6.1.4,EN-DC FR2  event-triggered reporting with gap in DRX,Rel-15,NSA,FR2
+38.533,5.6.2.1,EN-DC FR2-FR2 event-triggered reporting in non-DRX,Rel-15,NSA,FR2
+38.533,5.6.2.2,EN-DC FR2-FR2 event-triggered reporting in DRX,Rel-15,NSA,FR2
+38.533,5.6.2.3,EN-DC FR2-FR2 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,NSA,FR2
+38.533,5.6.2.4,EN-DC FR2-FR2  event-triggered reporting in DRX with SSB time index detection,Rel-15,NSA,FR2
+38.533,5.6.2.5,EN-DC FR1-FR2 event-triggered reporting in non-DRX,Rel-15,NSA,FR1
+38.533,5.6.2.6,EN-DC FR1-FR2 event-triggered reporting in DRX,Rel-15,NSA,FR1
+38.533,5.6.2.7,EN-DC FR1-FR2 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,5.6.2.8,EN-DC FR1-FR2 event-triggered reporting in DRX with SSB time index detection,Rel-15,NSA,FR1
+38.533,5.6.3.1,EN-DC FR2 SSB-based L1-RSRP measurement in non-DRX,Rel-15,NSA,FR2
+38.533,5.6.3.2,EN-DC FR2 SSB-based L1-RSRP measurement in DRX,Rel-15,NSA,FR2
+38.533,5.6.3.3,EN-DC FR2 CSI-RS-based L1-RSRP measurement in non-DRX,Rel-15,NSA,FR2
+38.533,5.6.3.4,EN-DC FR2 CSI-RS-based L1-RSRP measurement in DRX,Rel-15,NSA,FR2
+38.533,5.7.1.1,EN-DC FR2 SS-RSRP measurement accuracy,Rel-15,NSA,FR2
+38.533,5.7.1.2,EN-DC FR2-FR2 SS-RSRP measurement accuracy,Rel-15,NSA,FR2
+38.533,5.7.1.3,EN-DC FR1-FR2 SS-RSRP measurement accuracy,Rel-15,NSA,FR1
+38.533,5.7.1.3.2,EN-DC FR1-FR2 SS-RSRP relative measurement accuracy,Rel-15,,
+38.533,5.7.2.1,EN-DC FR2 SS-RSRQ measurement accuracy,Rel-15,NSA,FR2
+38.533,5.7.2.2,EN-DC FR2-FR2 SS-RSRQ measurement accuracy,Rel-15,NSA,FR2
+38.533,5.7.3.1,EN-DC FR2 SS-SINR measurement accuracy,Rel-15,NSA,FR2
+38.533,5.7.3.2,EN-DC FR2-FR2 SS-SINR measurement accuracy,Rel-15,NSA,FR2
+38.533,5.7.4.1,EN-DC FR2 SSB-based L1-RSRP measurement accuracy,Rel-15,NSA,FR2
+38.533,5.7.4.2,EN-DC FR2 CSI-RS-based L1-RSRP measurement accuracy,Rel-15,NSA,FR2
+38.533,6.1.1.1,NR SA FR1 cell re-selection,Rel-15,SA,FR1
+38.533,6.1.1.1,NR SA FR1 cell re-selection,Rel-15,SA,FR1
+38.533,6.1.1.2,NR SA FR1-FR1 cell re-selection,Rel-15,SA,FR1
+38.533,6.1.1.2,NR SA FR1-FR1 cell re-selection,Rel-15,SA,FR1
+38.533,6.1.2.1,NR SA FR1 – E-UTRA cell re-selection to higher priority E-UTRA,Rel-15,SA,FR1
+38.533,6.1.2.1,NR SA FR1 – E-UTRA cell re-selection to higher priority E-UTRA,Rel-15,SA,FR1
+38.533,6.1.2.2,NR SA FR1 – E-UTRA cell re-selection to lower priority E-UTRA,Rel-15,SA,FR1
+38.533,6.1.2.2,NR SA FR1 – E-UTRA cell re-selection to lower priority E-UTRA,Rel-15,SA,FR1
+38.533,6.3.1.1,NR SA FR1 handover with known target cell,Rel-15,SA,FR1
+38.533,6.3.1.1,NR SA FR1 handover with known target cell,Rel-15,SA,FR1
+38.533,6.3.1.2,NR SA FR1 handover with unknown target cell,Rel-15,SA,FR1
+38.533,6.3.1.2,NR SA FR1 handover with unknown target cell,Rel-15,SA,FR1
+38.533,6.3.1.3,NR SA FR1-FR1 handover with unknown target cell,Rel-15,SA,FR1
+38.533,6.3.1.3,NR SA FR1-FR1 handover with unknown target cell,Rel-15,SA,FR1
+38.533,6.3.1.4,NR SA FR1 – E-UTRA handover with known target cell,Rel-15,SA,FR1
+38.533,6.3.1.4,NR SA FR1 – E-UTRA handover with known target cell,Rel-15,SA,FR1
+38.533,6.3.1.5,NR SA FR1 – E-UTRA handover with unknown target cell,Rel-15,SA,FR1
+38.533,6.3.1.5,NR SA FR1 – E-UTRA handover with unknown target cell,Rel-15,SA,FR1
+38.533,6.3.2.1.1,NR SA FR1 RRC re-establishment,Rel-15,SA,FR1
+38.533,6.3.2.1.1,NR SA FR1 RRC re-establishment,Rel-15,SA,FR1
+38.533,6.3.2.1.2,NR SA FR1 - FR1 RRC re-establishment,Rel-15,SA,FR1
+38.533,6.3.2.1.2,NR SA FR1 - FR1 RRC re-establishment,Rel-15,SA,FR1
+38.533,6.3.2.1.3,NR SA FR1 - FR1 RRC re-establishment without serving cell timing,Rel-15,SA,FR1
+38.533,6.3.2.1.3,NR SA FR1 - FR1 RRC re-establishment without serving cell timing,Rel-15,SA,FR1
+38.533,6.3.2.2.1,NR SA FR1 contention based random access,Rel-15,SA,FR1
+38.533,6.3.2.2.1,NR SA FR1 contention based random access,Rel-15,SA,FR1
+38.533,6.3.2.2.2,NR SA FR1 non-contention based random access,Rel-15,SA,FR1
+38.533,6.3.2.2.2,NR SA FR1 non-contention based random access,Rel-15,SA,FR1
+38.533,6.3.2.3.1,NR SA FR1 RRC connection release with redirection,Rel-15,SA,FR1
+38.533,6.3.2.3.1,NR SA FR1 RRC connection release with redirection,Rel-15,SA,FR1
+38.533,6.3.2.3.2,NR SA  FR1 – E-UTRA RRC connection release with redirection,Rel-15,SA,FR1
+38.533,6.3.2.3.2,NR SA  FR1 – E-UTRA RRC connection release with redirection,Rel-15,SA,FR1
+38.533,6.4.1.1,NR SA FR1 transmit timing accuracy,Rel-15,SA,FR1
+38.533,6.4.1.1,NR SA FR1 transmit timing accuracy,Rel-15,SA,FR1
+38.533,6.4.3.1,NR SA FR1 timing advance adjustment accuracy,Rel-15,SA,FR1
+38.533,6.4.3.1,NR SA FR1 timing advance adjustment accuracy,Rel-15,SA,FR1
+38.533,6.5.1.1,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.1,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.2,NR SA FR1 radio link monitoring in-sync test for PCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.2,NR SA FR1 radio link monitoring in-sync test for PCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.3,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with SSB-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.3,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with SSB-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.4,NR SA FR1 radio link monitoring in-sync test for PCell configured with SSB-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.4,NR SA FR1 radio link monitoring in-sync test for PCell configured with SSB-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.5,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.5,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.6,NR SA FR1 radio link monitoring in-sync test for PCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.6,NR SA FR1 radio link monitoring in-sync test for PCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.7,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.7,NR SA FR1 radio link monitoring out-of-sync test for PCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.8,NR SA FR1 radio link monitoring in-sync test for PCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.1.8,NR SA FR1 radio link monitoring in-sync test for PCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,SA,FR1
+38.533,6.5.2.1,NR SA FR1 interruptions during measurements on deactivated NR SCC,Rel-15,SA,FR1
+38.533,6.5.2.1,NR SA FR1 interruptions during measurements on deactivated NR SCC,Rel-15,SA,FR1
+38.533,6.5.3.1,NR SA FR1 SCell activation and deactivation of known SCell in non-DRX for 160ms SCell measurement cycle,Rel-15,SA,FR1
+38.533,6.5.3.1,NR SA FR1 SCell activation and deactivation of known SCell in non-DRX for 160ms SCell measurement cycle,Rel-15,SA,FR1
+38.533,6.5.3.2,NR SA FR1 SCell activation and deactivation of known SCell in non-DRX for 320ms SCell measurement cycle,Rel-15,SA,FR1
+38.533,6.5.3.2,NR SA FR1 SCell activation and deactivation of known SCell in non-DRX for 320ms SCell measurement cycle,Rel-15,SA,FR1
+38.533,6.5.3.3,NR SA FR1 SCell activation and deactivation of unknown SCell in non-DRX,Rel-15,SA,FR1
+38.533,6.5.3.3,NR SA FR1 SCell activation and deactivation of unknown SCell in non-DRX,Rel-15,SA,FR1
+38.533,6.5.4.1,NR SA FR1 UE UL carrier RRC reconfiguration delay,Rel-15,SA,FR1
+38.533,6.5.4.1,NR SA FR1 UE UL carrier RRC reconfiguration delay,Rel-15,SA,FR1
+38.533,6.5.5.1,NR SA FR1 SSB-based beam failure detection and link recovery in non-DRX,Rel-15,SA,FR1
+38.533,6.5.5.1,NR SA FR1 SSB-based beam failure detection and link recovery in non-DRX,Rel-15,SA,FR1
+38.533,6.5.5.2,NR SA FR1 SSB-based beam failure detection and link recovery in DRX,Rel-15,SA,FR1
+38.533,6.5.5.2,NR SA FR1 SSB-based beam failure detection and link recovery in DRX,Rel-15,SA,FR1
+38.533,6.5.5.3,NR SA FR1 CSI-RS-based beam failure detection and link recovery in non-DRX,Rel-15,SA,FR1
+38.533,6.5.5.3,NR SA FR1 CSI-RS-based beam failure detection and link recovery in non-DRX,Rel-15,SA,FR1
+38.533,6.5.5.4,NR SA FR1 CSI-RS-based beam failure detection and link recovery in DRX,Rel-15,SA,FR1
+38.533,6.5.5.4,NR SA FR1 CSI-RS-based beam failure detection and link recovery in DRX,Rel-15,SA,FR1
+38.533,6.5.6.1.1,SA FR1-FR1 DCI-based DL active BWP switch in non-DRX,Rel-15,SA,FR1
+38.533,6.5.6.1.1,SA FR1-FR1 DCI-based DL active BWP switch in non-DRX,Rel-15,SA,FR1
+38.533,6.5.6.1.2,SA FR1 DCI-based DL active BWP switch in non-DRX,Rel-15,SA,FR1
+38.533,6.5.6.1.2,SA FR1 DCI-based DL active BWP switch in non-DRX,Rel-15,SA,FR1
+38.533,6.5.6.2.1,SA FR1 RRC-based DL active BWP switch in non-DRX,Rel-15,SA,FR1
+38.533,6.5.6.2.1,SA FR1 RRC-based DL active BWP switch in non-DRX,Rel-15,SA,FR1
+38.533,6.6.1.1,NR SA FR1 event-triggered reporting without gap in non-DRX,Rel-15,SA,FR1
+38.533,6.6.1.1,NR SA FR1 event-triggered reporting without gap in non-DRX,Rel-15,SA,FR1
+38.533,6.6.1.2,NR SA FR1 event-triggered reporting without gap in DRX,Rel-15,SA,FR1
+38.533,6.6.1.2,NR SA FR1 event-triggered reporting without gap in DRX,Rel-15,SA,FR1
+38.533,6.6.1.3,NR SA FR1 event-triggered reporting with gap in non-DRX,Rel-15,SA,FR1
+38.533,6.6.1.3,NR SA FR1 event-triggered reporting with gap in non-DRX,Rel-15,SA,FR1
+38.533,6.6.1.4,NR SA FR1 event-triggered reporting with gap in DRX,Rel-15,SA,FR1
+38.533,6.6.1.4,NR SA FR1 event-triggered reporting with gap in DRX,Rel-15,SA,FR1
+38.533,6.6.1.5,NR SA FR1 event-triggered reporting without gap in non-DRX with SSB index reading,Rel-15,SA,FR1
+38.533,6.6.1.5,NR SA FR1 event-triggered reporting without gap in non-DRX with SSB index reading,Rel-15,SA,FR1
+38.533,6.6.1.6,NR SA FR1 event-triggered reporting with gap in non-DRX with SSB index reading,Rel-15,SA,FR1
+38.533,6.6.1.6,NR SA FR1 event-triggered reporting with gap in non-DRX with SSB index reading,Rel-15,SA,FR1
+38.533,6.6.2.1,NR SA FR1-FR1 event-triggered reporting in non-DRX,Rel-15,SA,FR1
+38.533,6.6.2.1,NR SA FR1-FR1 event-triggered reporting in non-DRX,Rel-15,SA,FR1
+38.533,6.6.2.2,NR SA FR1-FR1 event-triggered reporting  in DRX,Rel-15,SA,FR1
+38.533,6.6.2.2,NR SA FR1-FR1 event-triggered reporting  in DRX,Rel-15,SA,FR1
+38.533,6.6.2.5,NR SA FR1-FR1 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,SA,FR1
+38.533,6.6.2.5,NR SA FR1-FR1 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,SA,FR1
+38.533,6.6.2.6,NR SA FR1-FR1 event-triggered reporting  in DRX with SSB time index detection,Rel-15,SA,FR1
+38.533,6.6.2.6,NR SA FR1-FR1 event-triggered reporting  in DRX with SSB time index detection,Rel-15,SA,FR1
+38.533,6.6.3.1,NR SA FR1 – E-UTRAN event-triggered reporting in non-DRX,Rel-15,SA,FR1
+38.533,6.6.3.1,NR SA FR1 – E-UTRAN event-triggered reporting in non-DRX,Rel-15,SA,FR1
+38.533,6.6.3.2,NR SA FR1 – E-UTRAN event-triggered reporting in DRX,Rel-15,SA,FR1
+38.533,6.6.3.2,NR SA FR1 – E-UTRAN event-triggered reporting in DRX,Rel-15,SA,FR1
+38.533,6.6.4.1,NR SA FR1 SSB-based L1-RSRP measurement in non-DRX,Rel-15,SA,FR1
+38.533,6.6.4.1,NR SA FR1 SSB-based L1-RSRP measurement in non-DRX,Rel-15,SA,FR1
+38.533,6.6.4.2,NR SA FR1 SSB-based L1-RSRP measurement in DRX,Rel-15,SA,FR1
+38.533,6.6.4.2,NR SA FR1 SSB-based L1-RSRP measurement in DRX,Rel-15,SA,FR1
+38.533,6.6.4.3,NR SA FR1 CSI-RS-based L1-RSRP measurement in non-DRX,Rel-15,SA,FR1
+38.533,6.6.4.3,NR SA FR1 CSI-RS-based L1-RSRP measurement in non-DRX,Rel-15,SA,FR1
+38.533,6.6.4.4,NR SA FR1 CSI-RS-based L1-RSRP measurement in DRX,Rel-15,SA,FR1
+38.533,6.6.4.4,NR SA FR1 CSI-RS-based L1-RSRP measurement in DRX,Rel-15,SA,FR1
+38.533,6.7.1.1.1,NR SA FR1 SS-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.1.1.1,NR SA FR1 SS-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.1.1.2,NR SA FR1 SS-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.1.1.2,NR SA FR1 SS-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.1.2.1,NR SA FR1-FR1 SS-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.1.2.1,NR SA FR1-FR1 SS-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.1.2.2,NR SA FR1-FR1 SS-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.1.2.2,NR SA FR1-FR1 SS-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.2.1,NR SA FR1 SS-RSRQ measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.2.1,NR SA FR1 SS-RSRQ measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.2.2.1,NR SA FR1-FR1 SS-RSRQ absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.2.2.1,NR SA FR1-FR1 SS-RSRQ absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.2.2.2,NR SA FR1-FR1 SS-RSRQ relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.2.2.2,NR SA FR1-FR1 SS-RSRQ relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.3.1,NR SA FR1 SS-SINR measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.3.1,NR SA FR1 SS-SINR measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.3.2.1,NR SA FR1-FR1 SS-SINR absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.3.2.1,NR SA FR1-FR1 SS-SINR absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.3.2.2,NR SA FR1-FR1 SS-SINR relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.3.2.2,NR SA FR1-FR1 SS-SINR relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.1.1,NR SA FR1 SSB-based L1-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.1.1,NR SA FR1 SSB-based L1-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.1.2,NR SA FR1 SSB-based L1-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.1.2,NR SA FR1 SSB-based L1-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.2.1,NR SA FR1 CSI-RS-based L1-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.2.1,NR SA FR1 CSI-RS-based L1-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.2.2,NR SA FR1 CSI-RS-based L1-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.4.2.2,NR SA FR1 CSI-RS-based L1-RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.5.1.1,NR SA FR1 – E-UTRAN RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.5.1.1,NR SA FR1 – E-UTRAN RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.5.1.2,NR SA FR1– E-UTRAN RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.5.1.2,NR SA FR1– E-UTRAN RSRP relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.6.1.1,NR SA FR1 – E-UTRAN RSRQ absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.6.1.1,NR SA FR1 – E-UTRAN RSRQ absolute measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.6.1.2,NR SA FR1 – E-UTRAN RSRQ relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.6.1.2,NR SA FR1 – E-UTRAN RSRQ relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.7.1.1,NR SA FR1 – E-UTRAN RS-SINR absolute  measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.7.1.1,NR SA FR1 – E-UTRAN RS-SINR absolute  measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.7.1.2,NR SA FR1 – E-UTRAN RS-SINR relative measurement accuracy,Rel-15,SA,FR1
+38.533,6.7.7.1.2,NR SA FR1 – E-UTRAN RS-SINR relative measurement accuracy,Rel-15,SA,FR1
+38.533,7.1.1.1,NR SA FR2 cell re-selection,Rel-15,SA,FR2
+38.533,7.1.1.2,NR SA FR2-FR2 cell re-selection,Rel-15,SA,FR2
+38.533,7.3.1.1,NR SA FR1-FR2 handover with unknown target cell,Rel-15,SA,FR1
+38.533,7.3.1.2,NR SA FR2 handover with unknown target cell,Rel-15,SA,FR2
+38.533,7.3.1.3,NR SA FR2-FR2 handover with unknown target cell,Rel-15,SA,FR2
+38.533,7.3.2.1.1,NR SA FR2 RRC re-establishment,Rel-15,SA,FR2
+38.533,7.3.2.1.2,NR SA FR2 - FR2 RRC re-establishment,Rel-15,SA,FR2
+38.533,7.3.2.1.3,NR SA FR2 - FR2 RRC re-establishment without serving cell timing,Rel-15,SA,FR2
+38.533,7.3.2.2.1,NR SA FR2 contention based random access,Rel-15,SA,FR2
+38.533,7.3.2.2.2,NR SA FR2 non-contention based random access,Rel-15,SA,FR2
+38.533,7.3.2.3.1,NR SA FR2 RRC connection release with redirection,Rel-15,SA,FR2
+38.533,7.4.1.1,NR SA FR2 transmit timing accuracy,Rel-15,SA,FR2
+38.533,7.4.3.1,NR SA FR2 timing advanced adjustment accuracy,Rel-15,SA,FR2
+38.533,7.5.1.1,NR SA FR2 radio link monitoring out-of-sync test for PCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.2,NR SA FR2 radio link monitoring in-sync test for PCell configured with SSB-based RLM RS in non-DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.3,NR SA FR2 radio link monitoring out-of-sync test for PCell configured with SSB-based RLM RS in DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.4,NR SA FR2 radio link monitoring in-sync test for PCell configured with SSB-based RLM RS in DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.5,NR SA FR2 radio link monitoring out-of-sync test for PCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.6,NR SA FR2 radio link monitoring in-sync test for PCell configured with CSI-RS-based RLM RS in non-DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.7,NR SA FR2 radio link monitoring out-of-sync test for PCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.8,NR SA FR2 radio link monitoring in-sync test for PCell configured with CSI-RS-based RLM RS in DRX mode,Rel-15,SA,FR2
+38.533,7.5.1.9,NR SA FR2 radio link monitoring UE scheduling restrictions,Rel-15,SA,FR2
+38.533,7.5.2.1,NR SA FR2 interruptions during measurements on deactivated NR SCC,Rel-15,SA,FR2
+38.533,7.5.3.1,NR SA FR2-FR2 intra-band SCell activation and deactivation delay,Rel-15,SA,FR2
+38.533,7.5.3.2,NR SA FR1-FR2 inter-band SCell activation and deactivation delay,Rel-15,SA,FR1
+38.533,7.5.5.1,NR SA FR2 SSB-based beam failure detection and link recovery in non-DRX,Rel-15,SA,FR2
+38.533,7.5.5.2,NR SA FR2 SSB-based beam failure detection and link recovery in DRX,Rel-15,SA,FR2
+38.533,7.5.5.3,NR SA FR2 CSI-RS-based beam failure detection and link recovery in non-DRX,Rel-15,SA,FR2
+38.533,7.5.5.4,NR SA FR2 CSI-RS-based beam failure detection and link recovery in DRX,Rel-15,SA,FR2
+38.533,7.5.5.5,NR SA FR2 scheduling availability restriction during SSB-based beam failure detection and link recovery in non-DRX,Rel-15,SA,FR2
+38.533,7.5.6.1.1,NR SA FR2 2DL CA DCI-based DL active BWP switch in non-DRX,Rel-15,SA,FR2
+38.533,7.5.6.1.2,NR SA FR1-FR2 DCI-based DL active BWP switch in non-DRX,Rel-15,SA,FR1
+38.533,7.5.6.1.3,NR SA FR2 DCI-based DL active BWP switch in non-DRX,Rel-15,SA,FR2
+38.533,7.5.6.2.1,NR SA FR2 RRC-based DL active BWP switch in non-DRX,Rel-15,SA,FR2
+38.533,7.5.7.1,NR SA FR2 addition and release delay of known PSCell,Rel-15,SA,FR2
+38.533,7.5.7.2,NR SA FR2 addition and release delay of unknown PSCell,Rel-15,SA,FR2
+38.533,7.5.8.1.1,NR SA FR2 MAC-CE based active TCI state switch for a known TCI state,Rel-15,SA,FR2
+38.533,7.5.8.2.1,NR SA FR2 RRC based active TCI state switch for a known TCI state,Rel-15,SA,FR2
+38.533,7.6.1.1,NR SA FR2 event-triggered reporting without gap in non-DRX,Rel-15,SA,FR2
+38.533,7.6.1.2,NR SA FR2 event-triggered reporting without gap in DRX,Rel-15,SA,FR2
+38.533,7.6.1.3,NR SA FR2 event-triggered reporting with gap in non-DRX,Rel-15,SA,FR2
+38.533,7.6.1.4,NR SA FR2  event-triggered reporting with gap in DRX,Rel-15,SA,FR2
+38.533,7.6.2.1,NR SA FR2-FR2 event-triggered reporting in non-DRX,Rel-15,SA,FR2
+38.533,7.6.2.2,NR SA FR2-FR2 event-triggered reporting in DRX,Rel-15,SA,FR2
+38.533,7.6.2.3,NR SA FR2-FR2 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,SA,FR2
+38.533,7.6.2.4,NR SA FR2-FR2  event-triggered reporting in DRX with SSB time index detection,Rel-15,SA,FR2
+38.533,7.6.2.5,NR SA FR1-FR2 event-triggered reporting in non-DRX,Rel-15,SA,FR1
+38.533,7.6.2.6,NR SA FR1-FR2 event-triggered reporting in DRX,Rel-15,SA,FR1
+38.533,7.6.2.7,NR SA FR1-FR2 event-triggered reporting in non-DRX with SSB time index detection,Rel-15,SA,FR1
+38.533,7.6.2.8,NR SA FR1-FR2 event-triggered reporting in DRX with SSB time index detection,Rel-15,SA,FR1
+38.533,7.6.3.1,NR SA FR2 SSB-based L1-RSRP measurement in non-DRX,Rel-15,SA,FR2
+38.533,7.6.3.2,NR SA FR2 SSB-based L1-RSRP measurement in DRX,Rel-15,SA,FR2
+38.533,7.6.3.3,NR SA FR2 CSI-RS-based L1-RSRP measurement in non-DRX,Rel-15,SA,FR2
+38.533,7.6.3.4,NR SA FR2 CSI-RS-based L1-RSRP measurement in DRX,Rel-15,SA,FR2
+38.533,7.7.1.1,NR SA FR2 SS-RSRP measurement accuracy,Rel-15,SA,FR2
+38.533,7.7.1.2,NR SA FR2-FR2 SS-RSRP measurement accuracy,Rel-15,SA,FR2
+38.533,7.7.1.3.1,NR SA FR1-FR2 SS-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,7.7.1.3.2,NR SA FR1-FR2 SS-RSRP relative measurement accuracy,Rel-15,,
+38.533,7.7.2.1,NR SA FR2 SS-RSRQ measurement accuracy,Rel-15,SA,FR2
+38.533,7.7.2.2,NR SA FR2-FR2 SS-RSRQ measurement accuracy,Rel-15,SA,FR2
+38.533,7.7.3.1,NR SA FR2 SS-SINR measurement accuracy,Rel-15,SA,FR2
+38.533,7.7.3.2,NR SA FR2-FR2 SS-SINR measurement accuracy,Rel-15,SA,FR2
+38.533,7.7.4.1,NR SA FR2 SSB-based L1-RSRP measurement accuracy,Rel-15,SA,FR2
+38.533,7.7.4.2,NR SA FR2 CSI-RS-based L1-RSRP measurement accuracy,Rel-15,SA,FR2
+38.533,8.2.1.1,E-UTRA – NR FR1 cell re-selection to higher priority NR target cell,Rel-15,SA,FR1
+38.533,8.2.1.1,E-UTRA – NR FR1 cell re-selection to higher priority NR target cell,Rel-15,SA,FR1
+38.533,8.3.1.1,E-UTRA – NR FR1 handover with unknown target cell,Rel-15,SA,FR1
+38.533,8.3.1.1,E-UTRA – NR FR1 handover with unknown target cell,Rel-15,SA,FR1
+38.533,8.4.1.1,E-UTRA – NR FR1 SFTD measurement delay in non-DRX,Rel-15,SA,FR1
+38.533,8.4.1.1,E-UTRA – NR FR1 SFTD measurement delay in non-DRX,Rel-15,SA,FR1
+38.533,8.4.1.2,E-UTRA – NR FR1 SFTD measurement delay in DRX,Rel-15,SA,FR1
+38.533,8.4.1.2,E-UTRA – NR FR1 SFTD measurement delay in DRX,Rel-15,SA,FR1
+38.533,8.4.2.1,E-UTRA – NR FR1 event-triggered reporting without SSB time index detection in non-DRX,Rel-15,SA,FR1
+38.533,8.4.2.1,E-UTRA – NR FR1 event-triggered reporting without SSB time index detection in non-DRX,Rel-15,SA,FR1
+38.533,8.4.2.2,E-UTRA – NR FR1 event-triggered reporting without SSB time index detection in DRX,Rel-15,SA,FR1
+38.533,8.4.2.2,E-UTRA – NR FR1 event-triggered reporting without SSB time index detection in DRX,Rel-15,SA,FR1
+38.533,8.4.2.3,E-UTRA – NR FR1 event-triggered reporting with SSB time index detection in non-DRX,Rel-15,SA,FR1
+38.533,8.4.2.3,E-UTRA – NR FR1 event-triggered reporting with SSB time index detection in non-DRX,Rel-15,SA,FR1
+38.533,8.4.2.4,E-UTRA – NR FR1 event-triggered reporting with SSB time index detection in DRX,Rel-15,SA,FR1
+38.533,8.4.2.4,E-UTRA – NR FR1 event-triggered reporting with SSB time index detection in DRX,Rel-15,SA,FR1
+38.533,8.4.2.5,E-UTRA – NR FR2 event-triggered reporting without SSB time index detection in non-DRX,Rel-15,SA,FR2
+38.533,8.4.2.6,E-UTRA – NR FR2 event-triggered reporting without SSB time index detection in DRX,Rel-15,SA,FR2
+38.533,8.4.2.7,E-UTRA – NR FR2 event-triggered reporting with SSB time index detection in non-DRX,Rel-15,SA,FR2
+38.533,8.4.2.8,E-UTRA – NR FR2 event-triggered reporting with SSB time index detection in DRX,Rel-15,SA,FR2
+38.533,8.5.1.1,E-UTRA – NR FR1 SFTD measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.1.1,E-UTRA – NR FR1 SFTD measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.2.1.1.1,E-UTRA – NR FR1 SS-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.2.1.1.1,E-UTRA – NR FR1 SS-RSRP absolute measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.2.1.1.2,E-UTRA – NR FR1 SS-RSRP relative measurement accuracy,Rel-15,,
+38.533,8.5.2.1.1.2,E-UTRA – NR FR1 SS-RSRP relative measurement accuracy,Rel-15,,
+38.533,8.5.2.1.2,E-UTRA – NR FR2 SS-RSRP measurement accuracy,Rel-15,SA,FR2
+38.533,8.5.2.1.2.1,E-UTRA – NR FR2 SS-RSRP absolute measurement accuracy,Rel-15,,
+38.533,8.5.2.1.2.2,E-UTRA – NR FR2 SS-RSRP relative measurement accuracy,Rel-15,,
+38.533,8.5.2.2.1,E-UTRA – NR FR1 SS-RSRQ measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.2.2.1,E-UTRA – NR FR1 SS-RSRQ measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.2.2.2,E-UTRA – NR FR2 SS-RSRQ  measurement accuracy,Rel-15,SA,FR2
+38.533,8.5.2.3.1,E-UTRA – NR FR1 SS-SINR measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.2.3.1,E-UTRA – NR FR1 SS-SINR measurement accuracy,Rel-15,SA,FR1
+38.533,8.5.2.3.2,E-UTRA – NR FR2 SS-SINR  measurement accuracy,Rel-15,SA,FR2

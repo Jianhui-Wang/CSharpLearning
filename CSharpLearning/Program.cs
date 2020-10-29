@@ -1471,8 +1471,6 @@ namespace CSharpLearning
                 Console.WriteLine(i);
             #endregion
 
-            test_item:
-
             #region Learning-37 DataTable and CsvHelper/CsvReader/CsvDataReader
             var table = new DataTable();
             var csvFile = Directory.GetCurrentDirectory() + @"\..\..\..\test.csv";
@@ -1499,6 +1497,45 @@ namespace CSharpLearning
                 }
             }
 
+        #endregion
+
+        test_item:
+
+            #region Learning-38 LINQ Query - GroupBy Usage
+            var table2 = new DataTable();
+            var csvFile2 = Directory.GetCurrentDirectory() + @"\..\..\..\test2.csv";
+            Dictionary<string, Type> TypeMappings2 = new Dictionary<string, Type>();
+
+            using (var reader = File.OpenText(csvFile2))
+            {
+                using (var csv = new CsvHelper.CsvReader(reader, CultureInfo.InvariantCulture))
+                using (var dataReader = new CsvHelper.CsvDataReader(csv))
+                {
+                    table2.Load(dataReader);
+                }
+            }
+
+            var FR1_TCs = table2.Rows.Cast<DataRow>()
+                                .Where(r => r["Frequency Range"].ToString() == "FR1")
+                                .Select(r => r["Test Case"])
+                                .Distinct();
+
+            var FR2_TCs = (from r in table2.Rows.Cast<DataRow>()
+                           where r["Frequency Range"].ToString() == "FR2"
+                           select r["Test Case"]).Distinct();
+
+            var SA_TCs = table2.Rows.Cast<DataRow>()
+                                         .GroupBy(r => r["Mode"], r => r["Test Case"])
+                                         .Where(r => r.Key.ToString() == "SA")
+                                         .First()
+                                         .ToList()
+                                         .Distinct();
+
+            var NSA_TCs = (from r in table2.Rows.Cast<DataRow>()
+                          where r["Mode"].ToString() == "NSA"
+                          group r["Test Case"] by r["Mode"]
+                          ).First().ToList().Distinct();
+                          
             #endregion
 
             goto test_end;
