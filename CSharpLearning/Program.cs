@@ -1475,7 +1475,7 @@ namespace CSharpLearning
 
             #region Learning-37 DataTable and CsvHelper/CsvReader/CsvDataReader
             var table = new DataTable();
-            var csvFile = @"C:\Drive_E\PA_Learning\PilotProject\CSharpLearning\test.csv";
+            var csvFile = Directory.GetCurrentDirectory() + @"\..\..\..\test.csv";
             Dictionary<string, Type> TypeMappings = new Dictionary<string, Type>();
 
             using (var reader = File.OpenText(csvFile))
